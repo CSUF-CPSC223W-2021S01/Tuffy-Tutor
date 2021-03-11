@@ -15,6 +15,7 @@
 		A35349D625FA9FD60071E6DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35349D425FA9FD60071E6DA /* LaunchScreen.storyboard */; };
 		A35349E125FA9FD60071E6DA /* TuffyTutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35349E025FA9FD60071E6DA /* TuffyTutorTests.swift */; };
 		A35349EC25FA9FD60071E6DA /* TuffyTutorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35349EB25FA9FD60071E6DA /* TuffyTutorUITests.swift */; };
+		A3534A0A25FAA2160071E6DA /* Evelyn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3534A0925FAA2160071E6DA /* Evelyn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A35349E725FA9FD60071E6DA /* TuffyTutorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuffyTutorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35349EB25FA9FD60071E6DA /* TuffyTutorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuffyTutorUITests.swift; sourceTree = "<group>"; };
 		A35349ED25FA9FD60071E6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3534A0925FAA2160071E6DA /* Evelyn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evelyn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				A35349D225FA9FD60071E6DA /* Assets.xcassets */,
 				A35349D425FA9FD60071E6DA /* LaunchScreen.storyboard */,
 				A35349D725FA9FD60071E6DA /* Info.plist */,
+				A3534A0925FAA2160071E6DA /* Evelyn.swift */,
 			);
 			path = TuffyTutor;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				A35349CE25FA9FD40071E6DA /* ViewController.swift in Sources */,
 				A35349CA25FA9FD40071E6DA /* AppDelegate.swift in Sources */,
+				A3534A0A25FAA2160071E6DA /* Evelyn.swift in Sources */,
 				A35349CC25FA9FD40071E6DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
