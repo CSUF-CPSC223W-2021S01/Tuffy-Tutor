@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
-		40E77E9025FAA22F0049F225 /* Leo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E77E8F25FAA22F0049F225 /* Leo.swift */; };
-
+		40E77E9025FAA22F0049F225 /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E77E8F25FAA22F0049F225 /* Tutor.swift */; };
 		9EC43A6B25FAA30F001AC890 /* Rafael.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC43A6A25FAA30F001AC890 /* Rafael.swift */; };
-
 		A35349CA25FA9FD40071E6DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35349C925FA9FD40071E6DA /* AppDelegate.swift */; };
 		A35349CC25FA9FD40071E6DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35349CB25FA9FD40071E6DA /* SceneDelegate.swift */; };
 		A35349CE25FA9FD40071E6DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35349CD25FA9FD40071E6DA /* ViewController.swift */; };
@@ -20,11 +17,8 @@
 		A35349D625FA9FD60071E6DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35349D425FA9FD60071E6DA /* LaunchScreen.storyboard */; };
 		A35349E125FA9FD60071E6DA /* TuffyTutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35349E025FA9FD60071E6DA /* TuffyTutorTests.swift */; };
 		A35349EC25FA9FD60071E6DA /* TuffyTutorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35349EB25FA9FD60071E6DA /* TuffyTutorUITests.swift */; };
-
 		A3534A0A25FAA2160071E6DA /* Evelyn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3534A0925FAA2160071E6DA /* Evelyn.swift */; };
-
 		FA2076E025FAA2160087346A /* massi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2076DF25FAA2160087346A /* massi.swift */; };
-
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,11 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-
-		40E77E8F25FAA22F0049F225 /* Leo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leo.swift; sourceTree = "<group>"; };
-
+		40E77E8F25FAA22F0049F225 /* Tutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
 		9EC43A6A25FAA30F001AC890 /* Rafael.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rafael.swift; sourceTree = "<group>"; };
-
 		A35349C625FA9FD40071E6DA /* TuffyTutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuffyTutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35349C925FA9FD40071E6DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A35349CB25FA9FD40071E6DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,11 +55,8 @@
 		A35349E725FA9FD60071E6DA /* TuffyTutorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuffyTutorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35349EB25FA9FD60071E6DA /* TuffyTutorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuffyTutorUITests.swift; sourceTree = "<group>"; };
 		A35349ED25FA9FD60071E6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-
 		A3534A0925FAA2160071E6DA /* Evelyn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evelyn.swift; sourceTree = "<group>"; };
-
 		FA2076DF25FAA2160087346A /* massi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = massi.swift; sourceTree = "<group>"; };
-
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,17 +113,11 @@
 				A35349CF25FA9FD40071E6DA /* Main.storyboard */,
 				A35349D225FA9FD60071E6DA /* Assets.xcassets */,
 				A35349D425FA9FD60071E6DA /* LaunchScreen.storyboard */,
-				40E77E8F25FAA22F0049F225 /* Leo.swift */,
+				40E77E8F25FAA22F0049F225 /* Tutor.swift */,
 				A35349D725FA9FD60071E6DA /* Info.plist */,
-
 				9EC43A6A25FAA30F001AC890 /* Rafael.swift */,
-
- 
 				A3534A0925FAA2160071E6DA /* Evelyn.swift */,
-
 				FA2076DF25FAA2160087346A /* massi.swift */,
-
-
 			);
 			path = TuffyTutor;
 			sourceTree = "<group>";
@@ -288,14 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40E77E9025FAA22F0049F225 /* Leo.swift in Sources */,
+				40E77E9025FAA22F0049F225 /* Tutor.swift in Sources */,
 				A35349CE25FA9FD40071E6DA /* ViewController.swift in Sources */,
 				A35349CA25FA9FD40071E6DA /* AppDelegate.swift in Sources */,
-
 				9EC43A6B25FAA30F001AC890 /* Rafael.swift in Sources */,
-
 				A3534A0A25FAA2160071E6DA /* Evelyn.swift in Sources */,
-
 				A35349CC25FA9FD40071E6DA /* SceneDelegate.swift in Sources */,
 				FA2076E025FAA2160087346A /* massi.swift in Sources */,
 			);
