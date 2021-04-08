@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct services {
+    var colleges = [String : TutorArray]()
+    func lookup()->String{
+        
+    }
+}
