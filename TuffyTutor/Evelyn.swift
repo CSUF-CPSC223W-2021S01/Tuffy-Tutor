@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum daysofWeek {
+/*enum daysofWeek {
     case Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
 }
 
@@ -24,4 +24,32 @@ class Schedule {
         self.seconds = calendar.component(.second, from: date)
         print("hours = \(hour):\(minutes):\(seconds)")
     }
+}
+*/
+
+
+
+class daysOfWeek{
+    
+    var day: String
+    var startTime: Int
+    var endTime: Int
+    
+    init(day:String, startTime: Int, endTime: Int){
+        
+        self.day = day
+        self.startTime = startTime
+        self.endTime = endTime
+    }
+    
+}
+
+class Schedule{
+    
+
+    
+    var schedule : [daysOfWeek] = []
+    
+    
+    
 }
