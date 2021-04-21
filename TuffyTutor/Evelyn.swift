@@ -7,48 +7,21 @@
 
 import Foundation
 
-struct Time {
-    var Hour: Int
-    var Min: Int
-    
-    init() {
-        Hour = 0
-        Min = 0
-    }
-    
-    init(Hour: Int, Min: Int) {
-        self.Hour = Hour
-        self.Min = Min
-    }
-    
-    func readTime() -> Void {
-        
-    }
-    
-    func printTime() -> Void {
-        print( "\(Hour) : \(Min)" )
-    }
-    
+enum daysofWeek {
+    case Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
 }
 
 class Schedule {
-    var Day: String
-    var startTime: Time
-    var endTime: Time
-    
-    init(Day: String, startTime: Time, endTime: Time) { // default constructor
-        self.Day = Day
-        self.startTime = startTime
-        self.endTime = endTime
-    }
-    
-    func readSchedule() -> Void { //
-    /* M = Monday, T = Tuesday, W = Wednesday, TH = Thursday, and F = Friday
-    */
-        
-    }
-    
-    func printSchedule() -> Void {
-    }
+    let date = Date()
+    let calendar = Calendar.current
+    let hour: Int
+    let minutes: Int
+    let seconds: Int
 
+    init() {
+        self.hour = calendar.component(.hour, from: date)
+        self.minutes = calendar.component(.minute, from: date)
+        self.seconds = calendar.component(.second, from: date)
+        print("hours = \(hour):\(minutes):\(seconds)")
+    }
 }
