@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Aa5-IG-6CX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -8,25 +8,210 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--College-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TuffyTutor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fbT-1a-dVk">
+                                <rect key="frame" x="60" y="315" width="294" height="266"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="0TY-yN-DRU">
+                                        <rect key="frame" x="0.0" y="0.0" width="294" height="266"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hqn-zf-OmI" userLabel="Booking a Tutor">
+                                                <rect key="frame" x="0.0" y="0.0" width="294" height="101.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XA1-Rq-DZi">
+                                                <rect key="frame" x="0.0" y="126.5" width="294" height="139.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <segue destination="qmt-Hb-sf5" kind="show" id="aar-cV-qdw"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="266" id="epD-Fv-D8p"/>
+                                    <constraint firstAttribute="width" constant="294" id="kVV-7u-yW0"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                        <constraints>
+                            <constraint firstItem="fbT-1a-dVk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="94P-We-MUd"/>
+                            <constraint firstItem="fbT-1a-dVk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bSw-36-X9v"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="College" id="3UC-FL-REl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-278" y="131"/>
+            <point key="canvasLocation" x="630.43478260869574" y="130.58035714285714"/>
+        </scene>
+        <!--Subjects-->
+        <scene sceneID="l1A-2t-FlT">
+            <objects>
+                <viewController id="qmt-Hb-sf5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Ra-7h-CDj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BiY-0R-iZ5">
+                                <rect key="frame" x="60" y="315" width="294" height="266"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYc-Bd-Biu">
+                                        <rect key="frame" x="0.0" y="0.0" width="294" height="266"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="Fw6-y1-bjx" kind="show" id="tjp-nM-kFY"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="266" id="FfO-gk-jkd"/>
+                                    <constraint firstAttribute="width" constant="294" id="sKd-jk-muA"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillProportionally" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="4FQ-hb-jhC">
+                                <rect key="frame" x="152" y="348" width="110" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wtU-Nf-77g"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="BiY-0R-iZ5" firstAttribute="centerY" secondItem="2Ra-7h-CDj" secondAttribute="centerY" id="avh-vZ-E1v"/>
+                            <constraint firstItem="BiY-0R-iZ5" firstAttribute="centerX" secondItem="2Ra-7h-CDj" secondAttribute="centerX" id="ipW-mF-1M5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Subjects" id="BBC-QN-eGV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kCf-vi-CS6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1466.6666666666667" y="130.58035714285714"/>
+        </scene>
+        <!--Tutors-->
+        <scene sceneID="IsS-IJ-4ZB">
+            <objects>
+                <viewController id="Fw6-y1-bjx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rjd-Os-xcl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Rgs-G3-Brp">
+                                <rect key="frame" x="60" y="315" width="294" height="266"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="gRY-Ix-TA1">
+                                        <rect key="frame" x="0.0" y="0.0" width="294" height="266"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvb-n7-U0f">
+                                                <rect key="frame" x="0.0" y="0.0" width="294" height="266"/>
+                                                <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <segue destination="Mg0-Af-LbE" kind="show" id="tJs-Jx-Qcc"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="294" id="cSR-vO-B1n"/>
+                                    <constraint firstAttribute="height" constant="266" id="z1N-Au-keq"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XVs-iJ-xCB"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="Rgs-G3-Brp" firstAttribute="centerX" secondItem="rjd-Os-xcl" secondAttribute="centerX" id="Q5g-2e-FGP"/>
+                            <constraint firstItem="Rgs-G3-Brp" firstAttribute="centerY" secondItem="rjd-Os-xcl" secondAttribute="centerY" id="YNk-Bj-egG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tutors" id="5Vx-At-rs2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C41-8G-1Fu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2223.1884057971015" y="130.58035714285714"/>
+        </scene>
+        <!--Availability-->
+        <scene sceneID="Pdg-da-qNb">
+            <objects>
+                <viewController id="Mg0-Af-LbE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jXv-Ce-asa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5Uw-KU-Fzt">
+                                <rect key="frame" x="60" y="315" width="294" height="266"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Xm3-42-jrq">
+                                        <rect key="frame" x="0.0" y="0.0" width="294" height="266"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsA-e3-xQZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="294" height="266"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="266" id="7NO-Tn-Il9"/>
+                                    <constraint firstAttribute="width" constant="294" id="9s2-8I-Csz"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gzG-sS-lbj"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="5Uw-KU-Fzt" firstAttribute="centerX" secondItem="jXv-Ce-asa" secondAttribute="centerX" id="pNs-s0-Nfc"/>
+                            <constraint firstItem="5Uw-KU-Fzt" firstAttribute="centerY" secondItem="jXv-Ce-asa" secondAttribute="centerY" id="tef-8G-5Ih"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Availability" id="wIV-qj-gBX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F1Y-M9-UwF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3068.115942028986" y="130.58035714285714"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Rfs-Hz-RzM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Aa5-IG-6CX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="4ZH-EM-dAV">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="pqP-ff-ydU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y7Y-KP-mlM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-278.26086956521743" y="130.58035714285714"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
