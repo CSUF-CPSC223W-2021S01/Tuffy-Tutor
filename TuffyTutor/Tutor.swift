@@ -18,7 +18,7 @@ struct Tutor {
             print("There will be a change to this tutor's subject. It will be changing to \(String(describing:newSubject))")
         }
     }
-    var availability : Schedule? {
+    var availability : Array<AnyObject>? {
         willSet(newAvailabilty) {
             print("There will be a change to this tutor's availabilty. It will be changing to \(String(describing:newAvailabilty))")
         }
@@ -33,7 +33,7 @@ struct Tutor {
             print("There will be a change to this tutor's college. It will be changing to \(String(describing:newCollege))")
         }
     }
-    init?(name : String?, subject : String?, availabilty : Schedule?, contactInfo : String?, college : String?) {
+    init?(name : String?, subject : String?, availabilty : Array<AnyObject>?, contactInfo : String?, college : String?) {
         if (contactInfo == nil || subject == nil) {
             return nil
         }

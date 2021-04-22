@@ -48,7 +48,7 @@ class Schedule{
     
 
     
-    var schedule : [daysOfWeek] = []
+    var schedule : [AnyObject] = []
     
     
     
