@@ -9,18 +9,18 @@ import Foundation
 
 struct tutorAndSubject{
     
-   var arrayofTutors = [Array<Any>]()
-    var arrayofSubjects = [String]()
+    var arrayofTutors : [String : Array<AnyObject>]
+    var test = 
     
    
     /*var tutorSubject = [Array: String]()     //this creates a dictionary, key: tutors, value: subject !!!!!!!!!! array as value */
     
     var subjectTutor = [String:Array<Any>]()     //this creates a dictionary, key: subject , value: tutors !!!!!!!!!! array as value
     
-    init(){
-        //tutorSubject = [:] // makes empty. safety
-        subjectTutor = [:]// makes empty. safety
-    }
+    init(subject: String, array : Array<AnyObject>){
+        
+        
+            }
     
    /* mutating func addTS(tutor: String, subject: String){
         if tutorSubject[tutor] == nil{      //this checks if the the tutor does not exist
