@@ -18,7 +18,7 @@
 		A35349E125FA9FD60071E6DA /* TuffyTutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35349E025FA9FD60071E6DA /* TuffyTutorTests.swift */; };
 		A35349EC25FA9FD60071E6DA /* TuffyTutorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35349EB25FA9FD60071E6DA /* TuffyTutorUITests.swift */; };
 		A3534A0A25FAA2160071E6DA /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3534A0925FAA2160071E6DA /* Schedule.swift */; };
-		FA2076E025FAA2160087346A /* massi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2076DF25FAA2160087346A /* massi.swift */; };
+		FA2076E025FAA2160087346A /* dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2076DF25FAA2160087346A /* dictionary.swift */; };
 		FAFEE75A262FB65C0044E774 /* main2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFEE759262FB65C0044E774 /* main2.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +57,7 @@
 		A35349EB25FA9FD60071E6DA /* TuffyTutorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuffyTutorUITests.swift; sourceTree = "<group>"; };
 		A35349ED25FA9FD60071E6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3534A0925FAA2160071E6DA /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
-		FA2076DF25FAA2160087346A /* massi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = massi.swift; sourceTree = "<group>"; };
+		FA2076DF25FAA2160087346A /* dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dictionary.swift; sourceTree = "<group>"; };
 		FAFEE759262FB65C0044E774 /* main2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,7 +119,7 @@
 				9EC43A6A25FAA30F001AC890 /* college.swift */,
 				A3534A0925FAA2160071E6DA /* Schedule.swift */,
 				A35349D725FA9FD60071E6DA /* Info.plist */,
-				FA2076DF25FAA2160087346A /* massi.swift */,
+				FA2076DF25FAA2160087346A /* dictionary.swift */,
 				FAFEE759262FB65C0044E774 /* main2.swift */,
 			);
 			path = TuffyTutor;
@@ -282,7 +282,7 @@
 				FAFEE75A262FB65C0044E774 /* main2.swift in Sources */,
 				A35349CA25FA9FD40071E6DA /* AppDelegate.swift in Sources */,
 				A35349CC25FA9FD40071E6DA /* SceneDelegate.swift in Sources */,
-				FA2076E025FAA2160087346A /* massi.swift in Sources */,
+				FA2076E025FAA2160087346A /* dictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
