@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--College-->
+        <!--Tuffy Tutor-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TuffyTutor" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,20 +19,67 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fbT-1a-dVk">
                                 <rect key="frame" x="60" y="315" width="294" height="266"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="0TY-yN-DRU">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="0TY-yN-DRU">
                                         <rect key="frame" x="0.0" y="0.0" width="294" height="266"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hqn-zf-OmI" userLabel="Booking a Tutor">
-                                                <rect key="frame" x="0.0" y="0.0" width="294" height="101.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XA1-Rq-DZi">
-                                                <rect key="frame" x="0.0" y="126.5" width="294" height="139.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="44" y="0.0" width="206" height="7"/>
+                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                                                <state key="normal" title="Business and Economics">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
                                                     <segue destination="qmt-Hb-sf5" kind="show" id="aar-cV-qdw"/>
                                                 </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aH3-RR-xWP">
+                                                <rect key="frame" x="129" y="37" width="36" height="7"/>
+                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                                                <state key="normal" title="Arts">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIj-qE-fGD">
+                                                <rect key="frame" x="77.5" y="74" width="139" height="7"/>
+                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                                                <state key="normal" title="Communications">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9iQ-V1-Fxh">
+                                                <rect key="frame" x="105" y="111" width="84" height="7"/>
+                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                                                <state key="normal" title="Education">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQa-ik-NRT">
+                                                <rect key="frame" x="0.5" y="148" width="293" height="7"/>
+                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                                                <state key="normal" title="Engineering and Computer Science">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIR-Uj-em0">
+                                                <rect key="frame" x="14.5" y="185" width="265" height="7"/>
+                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                                                <state key="normal" title="Health and Human Development">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xwO-HA-Idg">
+                                                <rect key="frame" x="15" y="222" width="264" height="7"/>
+                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                                                <state key="normal" title="Humanities and Social Sciences">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z04-e1-1UM">
+                                                <rect key="frame" x="4" y="259" width="286" height="7"/>
+                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                                                <state key="normal" title="Natural Sciences and Mathematics">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -44,22 +91,22 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                        <color key="backgroundColor" red="0.47558162601649479" green="0.58085812866327569" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="fbT-1a-dVk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="94P-We-MUd"/>
-                            <constraint firstItem="fbT-1a-dVk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bSw-36-X9v"/>
+                            <constraint firstItem="fbT-1a-dVk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V47-Zx-NAm"/>
+                            <constraint firstItem="fbT-1a-dVk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dA6-PP-7GL"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="College" id="3UC-FL-REl"/>
+                    <navigationItem key="navigationItem" title="Tuffy Tutor" id="3UC-FL-REl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="630.43478260869574" y="130.58035714285714"/>
         </scene>
-        <!--Subjects-->
+        <!--College-->
         <scene sceneID="l1A-2t-FlT">
             <objects>
-                <viewController id="qmt-Hb-sf5" sceneMemberID="viewController">
+                <viewController id="qmt-Hb-sf5" customClass="CollegeViewController" customModule="TuffyTutor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Ra-7h-CDj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,13 +139,13 @@
                             <constraint firstItem="BiY-0R-iZ5" firstAttribute="centerX" secondItem="2Ra-7h-CDj" secondAttribute="centerX" id="ipW-mF-1M5"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Subjects" id="BBC-QN-eGV"/>
+                    <navigationItem key="navigationItem" title="College" id="BBC-QN-eGV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kCf-vi-CS6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1466.6666666666667" y="130.58035714285714"/>
         </scene>
-        <!--Tutors-->
+        <!--Subject-->
         <scene sceneID="IsS-IJ-4ZB">
             <objects>
                 <viewController id="Fw6-y1-bjx" sceneMemberID="viewController">
@@ -135,13 +182,13 @@
                             <constraint firstItem="Rgs-G3-Brp" firstAttribute="centerY" secondItem="rjd-Os-xcl" secondAttribute="centerY" id="YNk-Bj-egG"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Tutors" id="5Vx-At-rs2"/>
+                    <navigationItem key="navigationItem" title="Subject" id="5Vx-At-rs2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C41-8G-1Fu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2223.1884057971015" y="130.58035714285714"/>
         </scene>
-        <!--Availability-->
+        <!--Tutor-->
         <scene sceneID="Pdg-da-qNb">
             <objects>
                 <viewController id="Mg0-Af-LbE" sceneMemberID="viewController">
@@ -158,6 +205,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsA-e3-xQZ">
                                                 <rect key="frame" x="0.0" y="0.0" width="294" height="266"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <segue destination="j6g-XJ-6qx" kind="show" id="xsr-yI-WjV"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -175,11 +225,51 @@
                             <constraint firstItem="5Uw-KU-Fzt" firstAttribute="centerY" secondItem="jXv-Ce-asa" secondAttribute="centerY" id="tef-8G-5Ih"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Availability" id="wIV-qj-gBX"/>
+                    <navigationItem key="navigationItem" title="Tutor" id="wIV-qj-gBX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F1Y-M9-UwF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3068.115942028986" y="130.58035714285714"/>
+        </scene>
+        <!--Availability-->
+        <scene sceneID="kCl-N1-Spa">
+            <objects>
+                <viewController id="j6g-XJ-6qx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Qp-eC-uLH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="K3l-vX-DS8">
+                                <rect key="frame" x="77" y="328" width="260" height="240"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="tbY-Hu-ECd">
+                                        <rect key="frame" x="0.0" y="0.0" width="260" height="240"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="enO-Nn-Vz7">
+                                                <rect key="frame" x="0.0" y="0.0" width="260" height="240"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="NOo-i2-khW"/>
+                                    <constraint firstAttribute="width" constant="260" id="X9a-mA-OvR"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PX7-7B-0Rk"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                        <constraints>
+                            <constraint firstItem="K3l-vX-DS8" firstAttribute="centerX" secondItem="7Qp-eC-uLH" secondAttribute="centerX" id="Pg3-2Y-IZ4"/>
+                            <constraint firstItem="K3l-vX-DS8" firstAttribute="centerY" secondItem="7Qp-eC-uLH" secondAttribute="centerY" id="UpZ-m2-cxg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Availability" id="bfX-w8-fcw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0ya-YD-GTV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3908.6956521739135" y="130.58035714285714"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Rfs-Hz-RzM">
@@ -204,8 +294,8 @@
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

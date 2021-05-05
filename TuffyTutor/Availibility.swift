@@ -44,7 +44,7 @@ class daysOfWeek{
     
 }
 
-class Schedule{
+class Availibility{
     
 
     
