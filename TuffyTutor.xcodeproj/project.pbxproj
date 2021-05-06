@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		40E77E9025FAA22F0049F225 /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E77E8F25FAA22F0049F225 /* Tutor.swift */; };
+		9E518D0D26445707000FA888 /* ArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E518D0C26445707000FA888 /* ArtViewController.swift */; };
+		9E518D12264457D3000FA888 /* CommViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E518D11264457D3000FA888 /* CommViewController.swift */; };
 		A3262F042641BA5400A7276C /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3262F032641BA5400A7276C /* Subject.swift */; };
 		A338484D264372BB008ED207 /* EduViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A338484C264372BB008ED207 /* EduViewController.swift */; };
 		A35349CA25FA9FD40071E6DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35349C925FA9FD40071E6DA /* AppDelegate.swift */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		40E77E8F25FAA22F0049F225 /* Tutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
+		9E518D0C26445707000FA888 /* ArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtViewController.swift; sourceTree = "<group>"; };
+		9E518D11264457D3000FA888 /* CommViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommViewController.swift; sourceTree = "<group>"; };
 		A3262F032641BA5400A7276C /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		A338484C264372BB008ED207 /* EduViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduViewController.swift; sourceTree = "<group>"; };
 		A35349C625FA9FD40071E6DA /* TuffyTutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuffyTutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +112,8 @@
 				A35349C925FA9FD40071E6DA /* AppDelegate.swift */,
 				A35349CB25FA9FD40071E6DA /* SceneDelegate.swift */,
 				A35349CF25FA9FD40071E6DA /* Main.storyboard */,
+				9E518D11264457D3000FA888 /* CommViewController.swift */,
+				9E518D0C26445707000FA888 /* ArtViewController.swift */,
 				A35349D225FA9FD60071E6DA /* Assets.xcassets */,
 				A35349D425FA9FD60071E6DA /* LaunchScreen.storyboard */,
 				A338484C264372BB008ED207 /* EduViewController.swift */,
@@ -271,7 +277,9 @@
 				A3262F042641BA5400A7276C /* Subject.swift in Sources */,
 				A35349CA25FA9FD40071E6DA /* AppDelegate.swift in Sources */,
 				A3534A0A25FAA2160071E6DA /* Availibility.swift in Sources */,
+				9E518D0D26445707000FA888 /* ArtViewController.swift in Sources */,
 				A338484D264372BB008ED207 /* EduViewController.swift in Sources */,
+				9E518D12264457D3000FA888 /* CommViewController.swift in Sources */,
 				A35349CC25FA9FD40071E6DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

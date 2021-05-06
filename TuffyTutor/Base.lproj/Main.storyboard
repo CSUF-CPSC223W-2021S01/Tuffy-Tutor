@@ -232,7 +232,7 @@
         <!--Arts-->
         <scene sceneID="85C-Cm-F7U">
             <objects>
-                <viewController id="jYn-cF-nYE" sceneMemberID="viewController">
+                <viewController id="jYn-cF-nYE" customClass="ArtViewController" customModule="TuffyTutor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wkj-cS-VFx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -264,7 +264,7 @@
         <!--Comm-->
         <scene sceneID="1An-PV-mR2">
             <objects>
-                <viewController id="3Mr-xm-kIT" sceneMemberID="viewController">
+                <viewController id="3Mr-xm-kIT" customClass="CommViewController" customModule="TuffyTutor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZvL-0u-YiV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
