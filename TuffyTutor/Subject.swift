@@ -8,16 +8,15 @@
 import Foundation
 
 struct Subject {
-    var ClassSub: String
-    var SubjandTutor = [String: [Tutor]]() // [Subject:Tutors] currently its empty
+    var ClassSub = [String]() // Empty array of Subjects
     
-    init(subject: String) {
-        self.ClassSub = subject
+    // var SubjandTutor = [String: [Tutor]]() // [Subject:Tutors] currently its empty
+    
+    mutating func add(Subject: String) {
+        ClassSub.append(Subject)
     }
     
-    mutating func lookup(input: String) {
-        print(SubjandTutor[input]!)
+    func getSubjectArrays() -> [String] {
+        return ClassSub
     }
-    
-    mutating func add() {}
 }

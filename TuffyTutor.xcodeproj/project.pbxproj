@@ -8,23 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		40E77E9025FAA22F0049F225 /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E77E8F25FAA22F0049F225 /* Tutor.swift */; };
-		9EC43A6B25FAA30F001AC890 /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC43A6A25FAA30F001AC890 /* College.swift */; };
 		A3262F042641BA5400A7276C /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3262F032641BA5400A7276C /* Subject.swift */; };
-		A3262F092641BC1F00A7276C /* TuffyTutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3262F082641BC1F00A7276C /* TuffyTutor.swift */; };
-		A33A2341264332C600EC54A9 /* CollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33A2340264332C600EC54A9 /* CollegeViewController.swift */; };
-		A33A234C2643336800EC54A9 /* SubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33A234B2643336700EC54A9 /* SubjectViewController.swift */; };
-		A33A23512643337900EC54A9 /* TutorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33A23502643337900EC54A9 /* TutorViewController.swift */; };
-		A33A23562643338C00EC54A9 /* AvailabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33A23552643338C00EC54A9 /* AvailabilityViewController.swift */; };
+		A338484D264372BB008ED207 /* EduViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A338484C264372BB008ED207 /* EduViewController.swift */; };
 		A35349CA25FA9FD40071E6DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35349C925FA9FD40071E6DA /* AppDelegate.swift */; };
 		A35349CC25FA9FD40071E6DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35349CB25FA9FD40071E6DA /* SceneDelegate.swift */; };
-		A35349CE25FA9FD40071E6DA /* TuffyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35349CD25FA9FD40071E6DA /* TuffyViewController.swift */; };
 		A35349D125FA9FD40071E6DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35349CF25FA9FD40071E6DA /* Main.storyboard */; };
 		A35349D325FA9FD60071E6DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A35349D225FA9FD60071E6DA /* Assets.xcassets */; };
 		A35349D625FA9FD60071E6DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35349D425FA9FD60071E6DA /* LaunchScreen.storyboard */; };
 		A35349E125FA9FD60071E6DA /* TuffyTutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35349E025FA9FD60071E6DA /* TuffyTutorTests.swift */; };
 		A35349EC25FA9FD60071E6DA /* TuffyTutorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35349EB25FA9FD60071E6DA /* TuffyTutorUITests.swift */; };
 		A3534A0A25FAA2160071E6DA /* Availibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3534A0925FAA2160071E6DA /* Availibility.swift */; };
-		FA2076E025FAA2160087346A /* dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2076DF25FAA2160087346A /* dictionary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,17 +39,11 @@
 
 /* Begin PBXFileReference section */
 		40E77E8F25FAA22F0049F225 /* Tutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
-		9EC43A6A25FAA30F001AC890 /* College.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College.swift; sourceTree = "<group>"; };
 		A3262F032641BA5400A7276C /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
-		A3262F082641BC1F00A7276C /* TuffyTutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuffyTutor.swift; sourceTree = "<group>"; };
-		A33A2340264332C600EC54A9 /* CollegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeViewController.swift; sourceTree = "<group>"; };
-		A33A234B2643336700EC54A9 /* SubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectViewController.swift; sourceTree = "<group>"; };
-		A33A23502643337900EC54A9 /* TutorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorViewController.swift; sourceTree = "<group>"; };
-		A33A23552643338C00EC54A9 /* AvailabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityViewController.swift; sourceTree = "<group>"; };
+		A338484C264372BB008ED207 /* EduViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduViewController.swift; sourceTree = "<group>"; };
 		A35349C625FA9FD40071E6DA /* TuffyTutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuffyTutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35349C925FA9FD40071E6DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A35349CB25FA9FD40071E6DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A35349CD25FA9FD40071E6DA /* TuffyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuffyViewController.swift; sourceTree = "<group>"; };
 		A35349D025FA9FD40071E6DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A35349D225FA9FD60071E6DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A35349D525FA9FD60071E6DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,7 +55,6 @@
 		A35349EB25FA9FD60071E6DA /* TuffyTutorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuffyTutorUITests.swift; sourceTree = "<group>"; };
 		A35349ED25FA9FD60071E6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3534A0925FAA2160071E6DA /* Availibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Availibility.swift; sourceTree = "<group>"; };
-		FA2076DF25FAA2160087346A /* dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,20 +107,13 @@
 			children = (
 				A35349C925FA9FD40071E6DA /* AppDelegate.swift */,
 				A35349CB25FA9FD40071E6DA /* SceneDelegate.swift */,
-				A35349CD25FA9FD40071E6DA /* TuffyViewController.swift */,
-				A33A2340264332C600EC54A9 /* CollegeViewController.swift */,
 				A35349CF25FA9FD40071E6DA /* Main.storyboard */,
-				A33A234B2643336700EC54A9 /* SubjectViewController.swift */,
-				A33A23502643337900EC54A9 /* TutorViewController.swift */,
-				A33A23552643338C00EC54A9 /* AvailabilityViewController.swift */,
 				A35349D225FA9FD60071E6DA /* Assets.xcassets */,
 				A35349D425FA9FD60071E6DA /* LaunchScreen.storyboard */,
-				A3262F082641BC1F00A7276C /* TuffyTutor.swift */,
-				9EC43A6A25FAA30F001AC890 /* College.swift */,
+				A338484C264372BB008ED207 /* EduViewController.swift */,
 				A3262F032641BA5400A7276C /* Subject.swift */,
 				40E77E8F25FAA22F0049F225 /* Tutor.swift */,
 				A3534A0925FAA2160071E6DA /* Availibility.swift */,
-				FA2076DF25FAA2160087346A /* dictionary.swift */,
 				A35349D725FA9FD60071E6DA /* Info.plist */,
 			);
 			path = TuffyTutor;
@@ -290,17 +269,10 @@
 			files = (
 				40E77E9025FAA22F0049F225 /* Tutor.swift in Sources */,
 				A3262F042641BA5400A7276C /* Subject.swift in Sources */,
-				A35349CE25FA9FD40071E6DA /* TuffyViewController.swift in Sources */,
-				A33A23562643338C00EC54A9 /* AvailabilityViewController.swift in Sources */,
 				A35349CA25FA9FD40071E6DA /* AppDelegate.swift in Sources */,
-				A33A2341264332C600EC54A9 /* CollegeViewController.swift in Sources */,
-				9EC43A6B25FAA30F001AC890 /* College.swift in Sources */,
 				A3534A0A25FAA2160071E6DA /* Availibility.swift in Sources */,
-				A33A234C2643336800EC54A9 /* SubjectViewController.swift in Sources */,
-				A33A23512643337900EC54A9 /* TutorViewController.swift in Sources */,
+				A338484D264372BB008ED207 /* EduViewController.swift in Sources */,
 				A35349CC25FA9FD40071E6DA /* SceneDelegate.swift in Sources */,
-				FA2076E025FAA2160087346A /* dictionary.swift in Sources */,
-				A3262F092641BC1F00A7276C /* TuffyTutor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
