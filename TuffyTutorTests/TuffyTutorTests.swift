@@ -30,8 +30,29 @@ class TuffyTutorTests: XCTestCase {
         }
     }
     
-    func addSubjectToTutor(){
+    func testSubject()
+    {
         
     }
+    func testTutor()
+    {
+        
+    }
+    func testDaysOfWeek()
+    {
+        var test = daysOfWeek(day: "Monday", startTime: 800, endTime: 900)
+        
+        XCTAssertEqual(test.day, "Monday")
+        XCTAssertEqual(test.startTime, 800)
+        XCTAssertEqual(test.endTime, 900)
+        
+        //XCTAssertEqual(test.description , "Monday")
+        
+    }
+    func testBookATutor()
+    {
+        
+    }
+    
 
 }
