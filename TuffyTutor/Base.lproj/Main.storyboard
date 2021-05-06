@@ -235,7 +235,11 @@
         <!--Arts-->
         <scene sceneID="85C-Cm-F7U">
             <objects>
+
                 <viewController id="jYn-cF-nYE" customClass="ArtViewController" customModule="TuffyTutor" customModuleProvider="target" sceneMemberID="viewController">
+
+                <viewController id="jYn-cF-nYE" customClass="ArtsViewController" customModule="TuffyTutor" customModuleProvider="target" sceneMemberID="viewController">
+
                     <view key="view" contentMode="scaleToFill" id="wkj-cS-VFx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -288,7 +292,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZU-Sd-N4D">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZU-Sd-N4D" userLabel="TutorNameLabel">
                                 <rect key="frame" x="69" y="153" width="276" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
@@ -301,7 +305,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WvP-gQ-L5g">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WvP-gQ-L5g" userLabel="SubjectNameLabel">
                                 <rect key="frame" x="62" y="308" width="283" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
@@ -314,7 +318,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0s-Zr-ZNx">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0s-Zr-ZNx" userLabel="DayNameLabel">
                                 <rect key="frame" x="69" y="460" width="200" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
@@ -327,7 +331,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4H-aK-7WU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4H-aK-7WU" userLabel="StartTimeLabel">
                                 <rect key="frame" x="62" y="561" width="247" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
@@ -340,7 +344,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xpn-fK-MFn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xpn-fK-MFn" userLabel="EndTimeLabel">
                                 <rect key="frame" x="69" y="664" width="290" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
@@ -389,6 +393,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="Book a Tutor" id="sWp-y1-Cm3"/>
                     <connections>
+                        <outlet property="DayNameLabel" destination="X0s-Zr-ZNx" id="024-yw-caT"/>
+                        <outlet property="EndTimeLabel" destination="Xpn-fK-MFn" id="Db3-0l-Kz5"/>
+                        <outlet property="StartTimeLabel" destination="O4H-aK-7WU" id="QIK-sk-K1x"/>
+                        <outlet property="SubjectNameLabel" destination="WvP-gQ-L5g" id="geX-eB-6XC"/>
+                        <outlet property="TutorNameLabel" destination="qZU-Sd-N4D" id="Y0Q-QO-0Bg"/>
                         <outlet property="inputDayofweek" destination="cow-l0-nI1" id="A9d-dD-Xhe"/>
                         <outlet property="inputEndTime" destination="8QH-BY-w1q" id="9Mg-OU-ZXZ"/>
                         <outlet property="inputStartTime" destination="K0f-mQ-gmP" id="dR3-UO-tft"/>
@@ -666,7 +675,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="NOb-iR-yI6"/>
+        <segue reference="YyY-ad-MeS"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="tuffy" width="600" height="600"/>
