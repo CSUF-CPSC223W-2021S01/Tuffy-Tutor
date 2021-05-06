@@ -24,7 +24,7 @@ class EduViewController: UIViewController {
     }
 
     func CollegeTutors() { // add tutors here
-        tutors!.add(Tutor: "College Test")
+        tutors!.add(Tutor: "Tutor Test")
     }
 
     func CollegeAvailibility() { // add Availability here
@@ -38,6 +38,7 @@ class EduViewController: UIViewController {
         sched1 = daysOfWeek(day: "M", startTime: 9, endTime: 10)
         avail = Availibility()
         CollegeSubjects()
+        CollegeTutors()
         updateUI()
         // Do any additional setup after loading the view.
     }
@@ -50,8 +51,7 @@ class EduViewController: UIViewController {
         var subjarr = subjects!.getSubjectArrays()
         var subjstring : String = ""
         
-        // need to fix subjstring not being initialized because its not changing the subjectlabel text
-        // Also, fix avail string because I dont remember how to print objects as strings
+
         for subjects in subjarr {
             subjstring = subjects + " , " // this string will change the subject label
         }
@@ -60,23 +60,24 @@ class EduViewController: UIViewController {
         //
         
         let tutorarr = tutors!.getTutorArrays()
-        var tutorstring = ""
+        var tutorstring: String = ""
         
          for tutor in tutorarr {
              tutorstring = tutor + " , " // make label display all the subjects
          }
-
+        
         TutorLabel.text = tutorstring
         //
+    
         /*
-        let availarr = avail.getAvailability() // an array of objects
+        let availarr = avail!.getAvailability() // an array of objects
         var availstring = ""
         
        for avails in availarr {
-            availstring =
+            availstring = availarr + " , "
         }
-        */
-        AvailabilityLabel.text = ""
+    
+       //AvailabilityLabel.text =
         //
 
     }
