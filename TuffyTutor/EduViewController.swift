@@ -32,10 +32,7 @@ class EduViewController: UIViewController {
     var sched2: daysOfWeek?
     var sched3: daysOfWeek?
     
-    var tutorbook: BookaTutor?
-    var bookingtutor: Booking?
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -55,10 +52,6 @@ class EduViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    func userInput() {
-        
-    }
     func updateUI() { // here is where we will make the label update!
         SubjectLabel.text = subjects1!.getSubjectString()
         SubjectLabel2.text = subjects2!.getSubjectString()

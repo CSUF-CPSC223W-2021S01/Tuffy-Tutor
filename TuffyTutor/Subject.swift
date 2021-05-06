@@ -8,9 +8,7 @@
 import Foundation
 
 struct Subject {
-    var ClassSub = String() // Empty array of Subjects
-    
-    // var SubjandTutor = [String: [Tutor]]() // [Subject:Tutors] currently its empty
+    var ClassSub = String()
     
     init(ClassSub: String) {
         self.ClassSub = ClassSub
