@@ -63,13 +63,13 @@ import Foundation
  */
 
 struct Tutor {
-    var Tutors = [String]() // Empty array of Tutors
+    var Tutors = String() // Empty array of Tutors
 
-    mutating func add(Tutor: String) {
-        Tutors.append(Tutor)
+    init(Tutors: String) {
+        self.Tutors = Tutors
     }
 
-    func getTutorArrays() -> [String] {
-        return Tutors
+    func getTutorString() -> String {
+        return "Tutor is " + Tutors
     }
 }
