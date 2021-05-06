@@ -29,7 +29,7 @@ import Foundation
  }
  */
 
-class daysOfWeek {
+class daysOfWeek: CustomStringConvertible {
     var day: String
     var startTime: Int
     var endTime: Int
@@ -39,16 +39,8 @@ class daysOfWeek {
         self.startTime = startTime
         self.endTime = endTime
     }
-}
 
-class Availibility {
-    var schedule = [daysOfWeek]()
-
-    func add(Schedule: daysOfWeek) {
-        schedule.append(Schedule)
-    }
-
-    func getAvailability() -> [daysOfWeek] {
-        return schedule
+    var description: String {
+        return "Day: \(day)\nStart Time: \(startTime)\nEnd Time: \(endTime)\n \n"
     }
 }

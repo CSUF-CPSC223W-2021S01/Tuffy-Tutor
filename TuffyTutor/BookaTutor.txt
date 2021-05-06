@@ -1,0 +1,12 @@
+
+import Foundation
+
+func save() {
+        // TODO: Save the history object into a file called game.plist
+        let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
+        let archiveURL = documentsDirectory.appendingPathComponent("contacts").appendingPathExtension("plist")
+
+        let propertyListEncoder = PropertyListEncoder()
+        if let encodedGame = try? propertyListEncoder.encode(history) {
+            try? encodedGame.write(to: archiveURL)
+        }
