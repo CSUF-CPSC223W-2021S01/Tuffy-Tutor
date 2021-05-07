@@ -44,6 +44,8 @@ class BookaTutorViewController: UIViewController, UITextFieldDelegate {
         inputTutor.delegate = self
         inputSubject.delegate = self
         inputDayofweek.delegate = self
+        inputStartTime.delegate = self
+        inputEndTime.delegate = self
         
         if let value1 = userTutor.value(forKey: "Tutor Name") as? String {
             TutorNameLabel.text = "last saved Tutor was " + value1 + ". What tutor would you like now?"
@@ -53,6 +55,17 @@ class BookaTutorViewController: UIViewController, UITextFieldDelegate {
             SubjectNameLabel.text = "last saved Subject was " + value2 + ". What Subject would you like now?"
         }
         
+        if let value3 = userTutor.value(forKey: "Day Name") as? String {
+            DayNameLabel.text = "last saved Day was " + value3 + ". What Day would you like now?"
+        }
+        
+        if let value4 = userTutor.value(forKey: "Start Name") as? String {
+            StartTimeLabel.text = "last saved Start time was " + value4 + ". What start time would you like now?"
+        }
+        
+        if let value5 = userTutor.value(forKey: "End Name") as? String {
+            EndTimeLabel.text = "last saved End time was " + value5 + ". What End time would you like now?"
+        }
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
