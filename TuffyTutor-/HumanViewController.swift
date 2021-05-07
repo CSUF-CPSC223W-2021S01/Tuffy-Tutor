@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HumanViewController.swift
 //  TuffyTutor-
 //
 //  Created by Evelyn Johnson on 5/6/21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HumanViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

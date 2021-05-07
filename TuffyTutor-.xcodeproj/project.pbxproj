@@ -9,12 +9,25 @@
 /* Begin PBXBuildFile section */
 		A3EC8E702644E9DE003A3D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8E6F2644E9DE003A3D91 /* AppDelegate.swift */; };
 		A3EC8E722644E9DE003A3D91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8E712644E9DE003A3D91 /* SceneDelegate.swift */; };
-		A3EC8E742644E9DE003A3D91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8E732644E9DE003A3D91 /* ViewController.swift */; };
 		A3EC8E772644E9DE003A3D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EC8E752644E9DE003A3D91 /* Main.storyboard */; };
 		A3EC8E792644E9E1003A3D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EC8E782644E9E1003A3D91 /* Assets.xcassets */; };
 		A3EC8E7C2644E9E1003A3D91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EC8E7A2644E9E1003A3D91 /* LaunchScreen.storyboard */; };
 		A3EC8E872644E9E2003A3D91 /* TuffyTutor_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8E862644E9E2003A3D91 /* TuffyTutor_Tests.swift */; };
 		A3EC8E922644E9E2003A3D91 /* TuffyTutor_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8E912644E9E2003A3D91 /* TuffyTutor_UITests.swift */; };
+		A3EC8EA62644F07A003A3D91 /* EduViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8EA52644F07A003A3D91 /* EduViewController.swift */; };
+		A3EC8EAB2644F0A4003A3D91 /* BusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8EAA2644F0A4003A3D91 /* BusinessViewController.swift */; };
+		A3EC8EB02644F0B4003A3D91 /* ArtsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8EAF2644F0B4003A3D91 /* ArtsViewController.swift */; };
+		A3EC8EB52644F0C5003A3D91 /* CommViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8EB42644F0C5003A3D91 /* CommViewController.swift */; };
+		A3EC8EBA2644F0D6003A3D91 /* ECSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8EB92644F0D6003A3D91 /* ECSViewController.swift */; };
+		A3EC8EBF2644F0E9003A3D91 /* HealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8EBE2644F0E9003A3D91 /* HealthViewController.swift */; };
+		A3EC8EC42644F0FB003A3D91 /* HumanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8EC32644F0FB003A3D91 /* HumanViewController.swift */; };
+		A3EC8EC92644F10A003A3D91 /* NaturalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8EC82644F10A003A3D91 /* NaturalViewController.swift */; };
+		A3EC8ECE2644F4A1003A3D91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8ECD2644F4A1003A3D91 /* ViewController.swift */; };
+		A3EC8F5126450163003A3D91 /* BookaTutorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8F5026450163003A3D91 /* BookaTutorViewController.swift */; };
+		A3EC8F562645069F003A3D91 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8F552645069F003A3D91 /* Subject.swift */; };
+		A3EC8F5B264506AC003A3D91 /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8F5A264506AC003A3D91 /* Tutor.swift */; };
+		A3EC8F60264506B7003A3D91 /* Availability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8F5F264506B7003A3D91 /* Availability.swift */; };
+		A3EC8F6526450B9E003A3D91 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A3EC8F6426450B9E003A3D91 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +51,6 @@
 		A3EC8E6C2644E9DE003A3D91 /* TuffyTutor-.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TuffyTutor-.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EC8E6F2644E9DE003A3D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3EC8E712644E9DE003A3D91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A3EC8E732644E9DE003A3D91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A3EC8E762644E9DE003A3D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3EC8E782644E9E1003A3D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3EC8E7B2644E9E1003A3D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,20 @@
 		A3EC8E8D2644E9E2003A3D91 /* TuffyTutor-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TuffyTutor-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EC8E912644E9E2003A3D91 /* TuffyTutor_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuffyTutor_UITests.swift; sourceTree = "<group>"; };
 		A3EC8E932644E9E2003A3D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EC8EA52644F07A003A3D91 /* EduViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduViewController.swift; sourceTree = "<group>"; };
+		A3EC8EAA2644F0A4003A3D91 /* BusinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessViewController.swift; sourceTree = "<group>"; };
+		A3EC8EAF2644F0B4003A3D91 /* ArtsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtsViewController.swift; sourceTree = "<group>"; };
+		A3EC8EB42644F0C5003A3D91 /* CommViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommViewController.swift; sourceTree = "<group>"; };
+		A3EC8EB92644F0D6003A3D91 /* ECSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECSViewController.swift; sourceTree = "<group>"; };
+		A3EC8EBE2644F0E9003A3D91 /* HealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthViewController.swift; sourceTree = "<group>"; };
+		A3EC8EC32644F0FB003A3D91 /* HumanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanViewController.swift; sourceTree = "<group>"; };
+		A3EC8EC82644F10A003A3D91 /* NaturalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalViewController.swift; sourceTree = "<group>"; };
+		A3EC8ECD2644F4A1003A3D91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3EC8F5026450163003A3D91 /* BookaTutorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookaTutorViewController.swift; sourceTree = "<group>"; };
+		A3EC8F552645069F003A3D91 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		A3EC8F5A264506AC003A3D91 /* Tutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
+		A3EC8F5F264506B7003A3D91 /* Availability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Availability.swift; sourceTree = "<group>"; };
+		A3EC8F6426450B9E003A3D91 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +126,22 @@
 			isa = PBXGroup;
 			children = (
 				A3EC8E6F2644E9DE003A3D91 /* AppDelegate.swift */,
+				A3EC8F6426450B9E003A3D91 /* .gitignore */,
 				A3EC8E712644E9DE003A3D91 /* SceneDelegate.swift */,
-				A3EC8E732644E9DE003A3D91 /* ViewController.swift */,
 				A3EC8E752644E9DE003A3D91 /* Main.storyboard */,
+				A3EC8F5026450163003A3D91 /* BookaTutorViewController.swift */,
+				A3EC8ECD2644F4A1003A3D91 /* ViewController.swift */,
+				A3EC8EC32644F0FB003A3D91 /* HumanViewController.swift */,
+				A3EC8EC82644F10A003A3D91 /* NaturalViewController.swift */,
+				A3EC8EBE2644F0E9003A3D91 /* HealthViewController.swift */,
+				A3EC8EB92644F0D6003A3D91 /* ECSViewController.swift */,
+				A3EC8EB42644F0C5003A3D91 /* CommViewController.swift */,
+				A3EC8EAF2644F0B4003A3D91 /* ArtsViewController.swift */,
+				A3EC8EAA2644F0A4003A3D91 /* BusinessViewController.swift */,
+				A3EC8EA52644F07A003A3D91 /* EduViewController.swift */,
+				A3EC8F552645069F003A3D91 /* Subject.swift */,
+				A3EC8F5A264506AC003A3D91 /* Tutor.swift */,
+				A3EC8F5F264506B7003A3D91 /* Availability.swift */,
 				A3EC8E782644E9E1003A3D91 /* Assets.xcassets */,
 				A3EC8E7A2644E9E1003A3D91 /* LaunchScreen.storyboard */,
 				A3EC8E7D2644E9E1003A3D91 /* Info.plist */,
@@ -231,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3EC8F6526450B9E003A3D91 /* .gitignore in Resources */,
 				A3EC8E7C2644E9E1003A3D91 /* LaunchScreen.storyboard in Resources */,
 				A3EC8E792644E9E1003A3D91 /* Assets.xcassets in Resources */,
 				A3EC8E772644E9DE003A3D91 /* Main.storyboard in Resources */,
@@ -258,9 +298,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3EC8E742644E9DE003A3D91 /* ViewController.swift in Sources */,
 				A3EC8E702644E9DE003A3D91 /* AppDelegate.swift in Sources */,
+				A3EC8F562645069F003A3D91 /* Subject.swift in Sources */,
+				A3EC8EBA2644F0D6003A3D91 /* ECSViewController.swift in Sources */,
+				A3EC8F60264506B7003A3D91 /* Availability.swift in Sources */,
+				A3EC8EBF2644F0E9003A3D91 /* HealthViewController.swift in Sources */,
+				A3EC8EB02644F0B4003A3D91 /* ArtsViewController.swift in Sources */,
+				A3EC8ECE2644F4A1003A3D91 /* ViewController.swift in Sources */,
+				A3EC8EB52644F0C5003A3D91 /* CommViewController.swift in Sources */,
+				A3EC8F5126450163003A3D91 /* BookaTutorViewController.swift in Sources */,
+				A3EC8F5B264506AC003A3D91 /* Tutor.swift in Sources */,
+				A3EC8EC42644F0FB003A3D91 /* HumanViewController.swift in Sources */,
+				A3EC8EC92644F10A003A3D91 /* NaturalViewController.swift in Sources */,
 				A3EC8E722644E9DE003A3D91 /* SceneDelegate.swift in Sources */,
+				A3EC8EAB2644F0A4003A3D91 /* BusinessViewController.swift in Sources */,
+				A3EC8EA62644F07A003A3D91 /* EduViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,14 +488,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "TuffyTutor-/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Final.TuffyTutor-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,14 +508,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "TuffyTutor-/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Final.TuffyTutor-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
