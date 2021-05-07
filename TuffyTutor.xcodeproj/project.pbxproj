@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		40E77E9025FAA22F0049F225 /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E77E8F25FAA22F0049F225 /* Tutor.swift */; };
+		9E9721002644C8AC009B262F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9E9720FF2644C8AC009B262F /* .gitignore */; };
 		A3262F042641BA5400A7276C /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3262F032641BA5400A7276C /* Subject.swift */; };
 		A338484D264372BB008ED207 /* EduViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A338484C264372BB008ED207 /* EduViewController.swift */; };
 		A338486126445665008ED207 /* BusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A338486026445665008ED207 /* BusViewController.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		40E77E8F25FAA22F0049F225 /* Tutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
+		9E9720FF2644C8AC009B262F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A3262F032641BA5400A7276C /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		A338484C264372BB008ED207 /* EduViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduViewController.swift; sourceTree = "<group>"; };
 		A338486026445665008ED207 /* BusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		A35349BD25FA9FD30071E6DA = {
 			isa = PBXGroup;
 			children = (
+				9E9720FF2644C8AC009B262F /* .gitignore */,
 				A35349C825FA9FD40071E6DA /* TuffyTutor */,
 				A35349DF25FA9FD60071E6DA /* TuffyTutorTests */,
 				A35349EA25FA9FD60071E6DA /* TuffyTutorUITests */,
@@ -249,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E9721002644C8AC009B262F /* .gitignore in Resources */,
 				A35349D625FA9FD60071E6DA /* LaunchScreen.storyboard in Resources */,
 				A35349D325FA9FD60071E6DA /* Assets.xcassets in Resources */,
 				A35349D125FA9FD40071E6DA /* Main.storyboard in Resources */,
