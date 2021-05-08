@@ -74,7 +74,7 @@
                                                     <color key="titleColor" systemColor="labelColor"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="dAi-qo-3uw" kind="show" id="Zue-bx-N0u"/>
+                                                    <segue destination="ty7-JT-E3d" kind="show" id="S6y-ai-OgB"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yfd-Nv-ZSi">
@@ -84,7 +84,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="164-6s-YbO" kind="show" id="Hyc-E4-sXf"/>
+                                                    <segue destination="TUF-ZA-lKB" kind="show" id="ooO-7d-QaY"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aky-ul-PPe">
@@ -94,7 +94,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="obM-47-89B" kind="show" id="c8E-MY-ml6"/>
+                                                    <segue destination="VV1-pr-GMB" kind="show" id="LNd-vb-tpx"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xy-Up-SQX">
@@ -114,7 +114,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="rA8-rN-4iD" kind="show" id="Two-tV-3KY"/>
+                                                    <segue destination="4i0-xI-MOh" kind="show" id="SIU-9X-nps"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pWq-RN-rvN">
@@ -124,7 +124,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="04H-jd-CYm" kind="show" id="SXK-2K-t41"/>
+                                                    <segue destination="v4w-LJ-jAr" kind="show" id="vkT-2W-NXb"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pkx-yW-vYt">
@@ -134,7 +134,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="ZEh-qG-3oW" kind="show" id="HcG-81-DEb"/>
+                                                    <segue destination="IxW-Wa-KTE" kind="show" id="CM4-F7-bZV"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vX-3p-Vf2">
@@ -144,7 +144,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="Zks-0e-j5k" kind="show" id="KGB-aG-LZ5"/>
+                                                    <segue destination="JGe-ge-mC3" kind="show" id="cAs-PO-Hyb"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -201,22 +201,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2266.666666666667" y="99.776785714285708"/>
-        </scene>
-        <!--Natural-->
-        <scene sceneID="47t-jD-q5r">
-            <objects>
-                <viewController id="Zks-0e-j5k" customClass="NaturalViewController" customModule="TuffyTutor_" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="7tP-2d-Agy">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="2Rb-pb-IOl"/>
-                        <color key="backgroundColor" red="0.67312031979999998" green="0.82773321870000005" blue="0.99987763169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Natural" id="PfQ-dV-QVx"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QUg-So-inv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3222" y="812"/>
         </scene>
         <!--Book a Tutor-->
         <scene sceneID="mn6-9B-iUT">
@@ -379,102 +363,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oR9-1w-cDX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3222" y="100"/>
-        </scene>
-        <!--ECS-->
-        <scene sceneID="D3p-eR-8aZ">
-            <objects>
-                <viewController id="rA8-rN-4iD" customClass="ECSViewController" customModule="TuffyTutor_" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="HF6-lG-tpR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="i2y-Y4-Ug9"/>
-                        <color key="backgroundColor" red="0.67312031979999998" green="0.82773321870000005" blue="0.99987763169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="ECS" id="kKh-6e-HEC"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YSm-8Q-nce" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="929" y="812"/>
-        </scene>
-        <!--Health-->
-        <scene sceneID="xFR-x9-pz7">
-            <objects>
-                <viewController id="04H-jd-CYm" customClass="HealthViewController" customModule="TuffyTutor_" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="IWL-wz-VJL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="9dZ-GW-pec"/>
-                        <color key="backgroundColor" red="0.67312031979999998" green="0.82773321870000005" blue="0.99987763169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Health" id="Mq6-uz-b1q"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eGa-dh-xUH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1661" y="812"/>
-        </scene>
-        <!--Human-->
-        <scene sceneID="ayj-HU-4se">
-            <objects>
-                <viewController id="ZEh-qG-3oW" customClass="HumanViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="I3W-is-xj9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="VaL-XB-5fe"/>
-                        <color key="backgroundColor" red="0.67312031979999998" green="0.82773321870000005" blue="0.99987763169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Human" id="db2-Fu-BIt"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iMd-qb-hbi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2445" y="812"/>
-        </scene>
-        <!--Busi/Econ-->
-        <scene sceneID="4RJ-TF-q8F">
-            <objects>
-                <viewController id="dAi-qo-3uw" customClass="BusinessViewController" customModule="TuffyTutor_" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ode-wx-4il">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="JcA-5d-0d3"/>
-                        <color key="backgroundColor" red="0.67312031979999998" green="0.82773321870000005" blue="0.99987763169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Busi/Econ" id="y2q-0b-8nx"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GMk-MK-xde" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1661" y="-656"/>
-        </scene>
-        <!--Comm-->
-        <scene sceneID="72a-az-ehP">
-            <objects>
-                <viewController id="obM-47-89B" customClass="CommViewController" customModule="TuffyTutor_" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="85X-T4-lcF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="wNH-aJ-Iy6"/>
-                        <color key="backgroundColor" red="0.67312031979999998" green="0.82773321870000005" blue="0.99987763169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Comm" id="mSG-Ra-3dy"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kup-Pl-00z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3222" y="-656"/>
-        </scene>
-        <!--Arts-->
-        <scene sceneID="ZAm-km-zAr">
-            <objects>
-                <viewController id="164-6s-YbO" customClass="ArtsViewController" customModule="TuffyTutor_" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="edY-Sd-qKj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="BtG-vq-Sj7"/>
-                        <color key="backgroundColor" red="0.67312031979999998" green="0.82773321870000005" blue="0.99987763169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Arts" id="8Ot-Aj-jdl"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eL4-e7-jpe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2445" y="-656"/>
         </scene>
         <!--Education-->
         <scene sceneID="tHp-tt-Dfk">
@@ -718,9 +606,1577 @@
             </objects>
             <point key="canvasLocation" x="1441" y="100"/>
         </scene>
+        <!--Natural-->
+        <scene sceneID="DDe-7q-UWR">
+            <objects>
+                <viewController title="Natural" id="JGe-ge-mC3" customClass="NaturalViewController" customModule="TuffyTutor_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R9G-NY-goS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jjq-Il-EQr">
+                                <rect key="frame" x="153" y="218" width="241" height="53"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQN-bj-hWt">
+                                <rect key="frame" x="153" y="270" width="241" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="EDF-Nd-1XM"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2yg-ab-fWe">
+                                <rect key="frame" x="153" y="329" width="241" height="38"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 1">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vn7-jf-dI5">
+                                <rect key="frame" x="153" y="423" width="241" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="bwy-b8-jLu"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 2">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYz-pZ-m0M">
+                                <rect key="frame" x="153" y="473" width="241" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="e5L-6x-7o9"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Sv-d1-V3z">
+                                <rect key="frame" x="153" y="515" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 2">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDF-Uo-kxm">
+                                <rect key="frame" x="153" y="593" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 3">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fxo-Mm-UZE">
+                                <rect key="frame" x="153" y="655" width="241" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="8oy-yG-5OX"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 3">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nh0-Qz-3l9">
+                                <rect key="frame" x="153" y="706" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 3">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7lt-aX-rLK">
+                                <rect key="frame" x="119" y="776" width="176" height="67"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Click Book a Tutor">
+                                            <attributes>
+                                                <color key="NSBackgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="NSColor" red="0.1206801161" green="0.51199614999999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="20" name="ArialRoundedMTBold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="fne-dB-2uf" kind="show" id="rt3-Jf-ZD1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adS-sl-9NF">
+                                <rect key="frame" x="40" y="72" width="374" height="166"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="166" id="flJ-Fm-Ib7"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Below you will find the tutors with their corresponding subjects and availabilities in sequential order!">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.57811000000000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="22" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0X2-5T-t7Y"/>
+                        <color key="backgroundColor" red="0.67312031979999998" green="0.82773321870000005" blue="0.99987763169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="trailing" secondItem="9Sv-d1-V3z" secondAttribute="trailing" id="0SJ-xQ-mNb"/>
+                            <constraint firstItem="adS-sl-9NF" firstAttribute="top" secondItem="R9G-NY-goS" secondAttribute="topMargin" constant="-16" id="0Ti-I6-Wj9"/>
+                            <constraint firstItem="adS-sl-9NF" firstAttribute="leading" secondItem="0X2-5T-t7Y" secondAttribute="leading" constant="40" id="6Oq-eb-gU1"/>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="leading" secondItem="WYz-pZ-m0M" secondAttribute="leading" id="9sI-bB-uDl"/>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="leading" secondItem="9Sv-d1-V3z" secondAttribute="leading" id="GBf-DI-G3e"/>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="trailing" secondItem="WYz-pZ-m0M" secondAttribute="trailing" id="Gam-hW-UuT"/>
+                            <constraint firstItem="9Sv-d1-V3z" firstAttribute="top" secondItem="Vn7-jf-dI5" secondAttribute="bottom" constant="40" id="JQe-Fw-rGW"/>
+                            <constraint firstItem="Vn7-jf-dI5" firstAttribute="top" secondItem="R9G-NY-goS" secondAttribute="top" constant="423" id="MAr-9t-yUa"/>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="leading" secondItem="rDF-Uo-kxm" secondAttribute="leading" id="N7H-r3-Q4q"/>
+                            <constraint firstItem="0X2-5T-t7Y" firstAttribute="bottom" secondItem="7lt-aX-rLK" secondAttribute="bottom" constant="19" id="P0W-L3-Qcp"/>
+                            <constraint firstItem="Vn7-jf-dI5" firstAttribute="top" secondItem="2yg-ab-fWe" secondAttribute="bottom" constant="56" id="Qcd-Mx-cst"/>
+                            <constraint firstItem="2yg-ab-fWe" firstAttribute="top" secondItem="oQN-bj-hWt" secondAttribute="bottom" constant="8" symbolic="YES" id="R80-KC-mzo"/>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="leading" secondItem="Fxo-Mm-UZE" secondAttribute="leading" id="RiA-9L-28g"/>
+                            <constraint firstAttribute="trailing" secondItem="adS-sl-9NF" secondAttribute="trailing" id="Ry2-z4-alx"/>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="leading" secondItem="0X2-5T-t7Y" secondAttribute="leading" constant="153" id="UoM-se-8vL"/>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="top" secondItem="adS-sl-9NF" secondAttribute="bottom" constant="32" id="UqT-qr-gIn"/>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="trailing" secondItem="2yg-ab-fWe" secondAttribute="trailing" id="V2W-RE-Rl1"/>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="leading" secondItem="Nh0-Qz-3l9" secondAttribute="leading" id="X3o-lg-pcV"/>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="leading" secondItem="jjq-Il-EQr" secondAttribute="leading" id="X6F-t2-yg0"/>
+                            <constraint firstItem="Nh0-Qz-3l9" firstAttribute="top" secondItem="Fxo-Mm-UZE" secondAttribute="bottom" constant="8" symbolic="YES" id="YLc-kR-1FO"/>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="trailing" secondItem="Vn7-jf-dI5" secondAttribute="trailing" id="YX2-T0-vTI"/>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="trailing" secondItem="rDF-Uo-kxm" secondAttribute="trailing" id="ayO-vC-tLo"/>
+                            <constraint firstItem="Fxo-Mm-UZE" firstAttribute="top" secondItem="rDF-Uo-kxm" secondAttribute="bottom" constant="42" id="gmr-Dv-mjq"/>
+                            <constraint firstItem="rDF-Uo-kxm" firstAttribute="top" secondItem="WYz-pZ-m0M" secondAttribute="bottom" constant="74" id="hxV-RA-4Gy"/>
+                            <constraint firstItem="jjq-Il-EQr" firstAttribute="top" secondItem="0X2-5T-t7Y" secondAttribute="top" constant="130" id="hxd-iw-zHz"/>
+                            <constraint firstItem="7lt-aX-rLK" firstAttribute="leading" secondItem="0X2-5T-t7Y" secondAttribute="leading" constant="119" id="jbr-mC-omf"/>
+                            <constraint firstItem="2yg-ab-fWe" firstAttribute="top" secondItem="jjq-Il-EQr" secondAttribute="bottom" constant="58" id="k3z-vJ-9Fp"/>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="leading" secondItem="2yg-ab-fWe" secondAttribute="leading" id="o83-y6-Srm"/>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="trailing" secondItem="R9G-NY-goS" secondAttribute="trailingMargin" id="phY-AA-JDu"/>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="trailing" secondItem="Fxo-Mm-UZE" secondAttribute="trailing" id="poi-vZ-aVJ"/>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="trailing" secondItem="Nh0-Qz-3l9" secondAttribute="trailing" id="qXx-5U-3d9"/>
+                            <constraint firstAttribute="bottom" secondItem="WYz-pZ-m0M" secondAttribute="bottom" constant="377" id="rBg-w9-hI9"/>
+                            <constraint firstItem="7lt-aX-rLK" firstAttribute="top" secondItem="Nh0-Qz-3l9" secondAttribute="bottom" constant="50" id="rgV-Yk-xEZ"/>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="leading" secondItem="Vn7-jf-dI5" secondAttribute="leading" id="rrf-bO-Tkr"/>
+                            <constraint firstItem="oQN-bj-hWt" firstAttribute="trailing" secondItem="jjq-Il-EQr" secondAttribute="trailing" id="wKY-tL-dSU"/>
+                            <constraint firstItem="7lt-aX-rLK" firstAttribute="centerX" secondItem="R9G-NY-goS" secondAttribute="centerX" id="wat-mo-CDA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Education" id="ggb-V4-V4h"/>
+                    <connections>
+                        <outlet property="AvailabilityLabel1" destination="2yg-ab-fWe" id="5mG-Z5-wWF"/>
+                        <outlet property="AvailabilityLabel2" destination="9Sv-d1-V3z" id="6FN-eO-9Gm"/>
+                        <outlet property="AvailabilityLabel3" destination="Nh0-Qz-3l9" id="UUb-oT-Bf7"/>
+                        <outlet property="SubjectLabel1" destination="oQN-bj-hWt" id="hwk-Kg-NTc"/>
+                        <outlet property="SubjectLabel2" destination="WYz-pZ-m0M" id="fg0-9Z-u2H"/>
+                        <outlet property="SubjectLabel3" destination="Fxo-Mm-UZE" id="ypf-SO-7km"/>
+                        <outlet property="TutorLabel1" destination="jjq-Il-EQr" id="cvP-nn-jmA"/>
+                        <outlet property="TutorLabel2" destination="Vn7-jf-dI5" id="whu-Ri-7On"/>
+                        <outlet property="TutorLabel3" destination="rDF-Uo-kxm" id="lPV-ts-R5P"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6HD-T9-7ac" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3267" y="812"/>
+        </scene>
+        <!--Busi/Econ-->
+        <scene sceneID="Ljv-5j-er2">
+            <objects>
+                <viewController title="Busi/Econ" id="ty7-JT-E3d" customClass="BusinessViewController" customModule="TuffyTutor_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vLo-UJ-fdy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAs-Ei-HWT">
+                                <rect key="frame" x="153" y="218" width="241" height="53"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfk-26-cu3">
+                                <rect key="frame" x="153" y="270" width="241" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="CUK-oO-4XT"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4U-ux-VBm">
+                                <rect key="frame" x="153" y="329" width="241" height="38"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 1">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOv-NB-Mv0">
+                                <rect key="frame" x="153" y="423" width="241" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="Ggz-m3-umb"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 2">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W16-s7-iOX">
+                                <rect key="frame" x="153" y="473" width="241" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="5Zr-dr-PbI"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHt-k7-MtZ">
+                                <rect key="frame" x="153" y="515" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 2">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cM-4f-5KI">
+                                <rect key="frame" x="153" y="593" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 3">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ThE-ga-izb">
+                                <rect key="frame" x="153" y="655" width="241" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="vWw-fM-HSp"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 3">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izB-Wr-B9d">
+                                <rect key="frame" x="153" y="706" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 3">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zle-Nw-qCQ">
+                                <rect key="frame" x="119" y="776" width="176" height="67"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Click Book a Tutor">
+                                            <attributes>
+                                                <color key="NSBackgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="NSColor" red="0.1206801161" green="0.51199614999999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="20" name="ArialRoundedMTBold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="fne-dB-2uf" kind="show" id="2Ez-wV-NF0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CNj-9M-2xL">
+                                <rect key="frame" x="40" y="72" width="374" height="166"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="166" id="gJz-m1-Qyk"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Below you will find the tutors with their corresponding subjects and availabilities in sequential order!">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.57811000000000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="22" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Oo7-ss-zKj"/>
+                        <color key="backgroundColor" red="0.67312031979999998" green="0.82773321870000005" blue="0.99987763169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="leading" secondItem="H4U-ux-VBm" secondAttribute="leading" id="07r-hu-EWp"/>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="leading" secondItem="1cM-4f-5KI" secondAttribute="leading" id="0YP-7h-OXa"/>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="trailing" secondItem="vLo-UJ-fdy" secondAttribute="trailingMargin" id="1fC-vK-JMr"/>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="top" secondItem="CNj-9M-2xL" secondAttribute="bottom" constant="32" id="4jT-xl-dA0"/>
+                            <constraint firstItem="Zle-Nw-qCQ" firstAttribute="centerX" secondItem="vLo-UJ-fdy" secondAttribute="centerX" id="5c6-Tt-t1c"/>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="leading" secondItem="izB-Wr-B9d" secondAttribute="leading" id="6FH-Yl-S4z"/>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="trailing" secondItem="ThE-ga-izb" secondAttribute="trailing" id="72O-TR-3Jj"/>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="trailing" secondItem="RAs-Ei-HWT" secondAttribute="trailing" id="8wZ-7t-a92"/>
+                            <constraint firstItem="Zle-Nw-qCQ" firstAttribute="top" secondItem="izB-Wr-B9d" secondAttribute="bottom" constant="50" id="9Ut-5O-q1D"/>
+                            <constraint firstItem="Zle-Nw-qCQ" firstAttribute="leading" secondItem="Oo7-ss-zKj" secondAttribute="leading" constant="119" id="ByW-5U-UQm"/>
+                            <constraint firstItem="xHt-k7-MtZ" firstAttribute="top" secondItem="FOv-NB-Mv0" secondAttribute="bottom" constant="40" id="DA2-ID-RZg"/>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="leading" secondItem="RAs-Ei-HWT" secondAttribute="leading" id="FIm-3a-c9m"/>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="trailing" secondItem="FOv-NB-Mv0" secondAttribute="trailing" id="GRS-MN-PCJ"/>
+                            <constraint firstItem="CNj-9M-2xL" firstAttribute="leading" secondItem="Oo7-ss-zKj" secondAttribute="leading" constant="40" id="H3Z-rc-j3o"/>
+                            <constraint firstAttribute="trailing" secondItem="CNj-9M-2xL" secondAttribute="trailing" id="I2O-bo-vrv"/>
+                            <constraint firstItem="RAs-Ei-HWT" firstAttribute="top" secondItem="Oo7-ss-zKj" secondAttribute="top" constant="130" id="Kyh-tM-4aw"/>
+                            <constraint firstItem="H4U-ux-VBm" firstAttribute="top" secondItem="hfk-26-cu3" secondAttribute="bottom" constant="8" symbolic="YES" id="NaC-4q-l1c"/>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="trailing" secondItem="H4U-ux-VBm" secondAttribute="trailing" id="SUW-HX-FRC"/>
+                            <constraint firstAttribute="bottom" secondItem="W16-s7-iOX" secondAttribute="bottom" constant="377" id="SY8-nd-HTE"/>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="trailing" secondItem="W16-s7-iOX" secondAttribute="trailing" id="V5M-iZ-N7R"/>
+                            <constraint firstItem="FOv-NB-Mv0" firstAttribute="top" secondItem="H4U-ux-VBm" secondAttribute="bottom" constant="56" id="ViB-vl-RE8"/>
+                            <constraint firstItem="H4U-ux-VBm" firstAttribute="top" secondItem="RAs-Ei-HWT" secondAttribute="bottom" constant="58" id="Vqy-50-rrh"/>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="leading" secondItem="ThE-ga-izb" secondAttribute="leading" id="ZOQ-Cd-DgL"/>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="trailing" secondItem="xHt-k7-MtZ" secondAttribute="trailing" id="bwc-Hc-Yqz"/>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="trailing" secondItem="1cM-4f-5KI" secondAttribute="trailing" id="fUt-j7-Xtn"/>
+                            <constraint firstItem="CNj-9M-2xL" firstAttribute="top" secondItem="vLo-UJ-fdy" secondAttribute="topMargin" constant="-16" id="gfW-Va-DzA"/>
+                            <constraint firstItem="Oo7-ss-zKj" firstAttribute="bottom" secondItem="Zle-Nw-qCQ" secondAttribute="bottom" constant="19" id="ggN-Es-fto"/>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="trailing" secondItem="izB-Wr-B9d" secondAttribute="trailing" id="hMf-xg-i8V"/>
+                            <constraint firstItem="FOv-NB-Mv0" firstAttribute="top" secondItem="vLo-UJ-fdy" secondAttribute="top" constant="423" id="hPd-AI-X2l"/>
+                            <constraint firstItem="izB-Wr-B9d" firstAttribute="top" secondItem="ThE-ga-izb" secondAttribute="bottom" constant="8" symbolic="YES" id="tRJ-AH-W24"/>
+                            <constraint firstItem="ThE-ga-izb" firstAttribute="top" secondItem="1cM-4f-5KI" secondAttribute="bottom" constant="42" id="uNa-N9-s7t"/>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="leading" secondItem="Oo7-ss-zKj" secondAttribute="leading" constant="153" id="vcS-VK-zbe"/>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="leading" secondItem="W16-s7-iOX" secondAttribute="leading" id="xCg-M6-OCP"/>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="leading" secondItem="FOv-NB-Mv0" secondAttribute="leading" id="yDR-oa-yxO"/>
+                            <constraint firstItem="1cM-4f-5KI" firstAttribute="top" secondItem="W16-s7-iOX" secondAttribute="bottom" constant="74" id="yDp-r4-nNr"/>
+                            <constraint firstItem="hfk-26-cu3" firstAttribute="leading" secondItem="xHt-k7-MtZ" secondAttribute="leading" id="yXV-Om-nxJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Education" id="a7y-4H-X89"/>
+                    <connections>
+                        <outlet property="AvailabilityLabel1" destination="H4U-ux-VBm" id="7Ff-nl-beC"/>
+                        <outlet property="AvailabilityLabel2" destination="xHt-k7-MtZ" id="wfZ-jz-uCk"/>
+                        <outlet property="AvailabilityLabel3" destination="izB-Wr-B9d" id="f1s-et-Ppe"/>
+                        <outlet property="SubjectLabel1" destination="hfk-26-cu3" id="unF-TK-TRe"/>
+                        <outlet property="SubjectLabel2" destination="W16-s7-iOX" id="JlB-Vl-HPs"/>
+                        <outlet property="SubjectLabel3" destination="ThE-ga-izb" id="nSp-1Z-e1H"/>
+                        <outlet property="TutorLabel1" destination="RAs-Ei-HWT" id="uz4-HF-LwM"/>
+                        <outlet property="TutorLabel2" destination="FOv-NB-Mv0" id="TRZ-Vb-FDq"/>
+                        <outlet property="TutorLabel3" destination="1cM-4f-5KI" id="l9p-Ub-az0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XNK-ne-W8H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1661" y="-656"/>
+        </scene>
+        <!--Arts-->
+        <scene sceneID="IKi-ZI-w9g">
+            <objects>
+                <viewController title="Arts" id="TUF-ZA-lKB" customClass="ArtsViewController" customModule="TuffyTutor_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="axd-bT-XaZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yb5-Nq-ovS">
+                                <rect key="frame" x="153" y="218" width="241" height="53"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmS-w3-yKl">
+                                <rect key="frame" x="153" y="270" width="241" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="4dZ-je-oy9"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ev-XT-W2P">
+                                <rect key="frame" x="153" y="329" width="241" height="38"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 1">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qqp-lK-kAm">
+                                <rect key="frame" x="153" y="423" width="241" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="vJF-oT-Y9K"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 2">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qzd-gA-tKi">
+                                <rect key="frame" x="153" y="473" width="241" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="rDw-oe-IwP"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UqQ-U4-Vez">
+                                <rect key="frame" x="153" y="515" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 2">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vB7-Ci-RNd">
+                                <rect key="frame" x="153" y="593" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 3">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2G-dN-dWY">
+                                <rect key="frame" x="153" y="655" width="241" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="kyT-b0-5TH"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 3">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vX-CJ-1fe">
+                                <rect key="frame" x="153" y="706" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 3">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LNI-sc-OxJ">
+                                <rect key="frame" x="119" y="776" width="176" height="67"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Click Book a Tutor">
+                                            <attributes>
+                                                <color key="NSBackgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="NSColor" red="0.1206801161" green="0.51199614999999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="20" name="ArialRoundedMTBold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="fne-dB-2uf" kind="show" id="RQf-Rm-rXb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkf-Nz-u97">
+                                <rect key="frame" x="40" y="72" width="374" height="166"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="166" id="C8T-Pg-xel"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Below you will find the tutors with their corresponding subjects and availabilities in sequential order!">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.57811000000000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="22" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="i2S-il-upD"/>
+                        <color key="backgroundColor" red="0.67312031979999998" green="0.82773321870000005" blue="0.99987763169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LNI-sc-OxJ" firstAttribute="centerX" secondItem="axd-bT-XaZ" secondAttribute="centerX" id="15K-m6-z4e"/>
+                            <constraint firstItem="Qqp-lK-kAm" firstAttribute="top" secondItem="axd-bT-XaZ" secondAttribute="top" constant="423" id="2QP-Ub-hH0"/>
+                            <constraint firstItem="kkf-Nz-u97" firstAttribute="leading" secondItem="i2S-il-upD" secondAttribute="leading" constant="40" id="3qE-AJ-IwR"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="trailing" secondItem="Qqp-lK-kAm" secondAttribute="trailing" id="6yE-Ye-QCz"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="trailing" secondItem="vB7-Ci-RNd" secondAttribute="trailing" id="73h-RB-Hdr"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="trailing" secondItem="UqQ-U4-Vez" secondAttribute="trailing" id="7oU-gs-nZH"/>
+                            <constraint firstItem="kkf-Nz-u97" firstAttribute="top" secondItem="axd-bT-XaZ" secondAttribute="topMargin" constant="-16" id="8Lc-Gs-rZb"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="leading" secondItem="1vX-CJ-1fe" secondAttribute="leading" id="8yb-fg-H1S"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="trailing" secondItem="1vX-CJ-1fe" secondAttribute="trailing" id="AAt-jM-p3T"/>
+                            <constraint firstItem="UqQ-U4-Vez" firstAttribute="top" secondItem="Qqp-lK-kAm" secondAttribute="bottom" constant="40" id="Blv-ce-52M"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="leading" secondItem="6ev-XT-W2P" secondAttribute="leading" id="CI7-23-Epn"/>
+                            <constraint firstAttribute="bottom" secondItem="Qzd-gA-tKi" secondAttribute="bottom" constant="377" id="CPB-pb-vet"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="leading" secondItem="vB7-Ci-RNd" secondAttribute="leading" id="CvE-RN-nLM"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="trailing" secondItem="axd-bT-XaZ" secondAttribute="trailingMargin" id="FXq-pq-DoZ"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="trailing" secondItem="Yb5-Nq-ovS" secondAttribute="trailing" id="KV9-KP-ucg"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="leading" secondItem="m2G-dN-dWY" secondAttribute="leading" id="OcY-av-n9K"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="leading" secondItem="UqQ-U4-Vez" secondAttribute="leading" id="RHe-oJ-8SL"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="leading" secondItem="Qzd-gA-tKi" secondAttribute="leading" id="XXa-jR-R3y"/>
+                            <constraint firstItem="vB7-Ci-RNd" firstAttribute="top" secondItem="Qzd-gA-tKi" secondAttribute="bottom" constant="74" id="ZrL-zV-obS"/>
+                            <constraint firstItem="i2S-il-upD" firstAttribute="bottom" secondItem="LNI-sc-OxJ" secondAttribute="bottom" constant="19" id="cfQ-ka-Z82"/>
+                            <constraint firstItem="LNI-sc-OxJ" firstAttribute="top" secondItem="1vX-CJ-1fe" secondAttribute="bottom" constant="50" id="eLv-8R-yo3"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="leading" secondItem="Qqp-lK-kAm" secondAttribute="leading" id="fc6-Wv-9Mw"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="top" secondItem="kkf-Nz-u97" secondAttribute="bottom" constant="32" id="h3d-jf-elT"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="trailing" secondItem="6ev-XT-W2P" secondAttribute="trailing" id="hZ4-du-pLY"/>
+                            <constraint firstItem="1vX-CJ-1fe" firstAttribute="top" secondItem="m2G-dN-dWY" secondAttribute="bottom" constant="8" symbolic="YES" id="jPD-Ow-Vhx"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="trailing" secondItem="m2G-dN-dWY" secondAttribute="trailing" id="k1w-vN-V7P"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="leading" secondItem="Yb5-Nq-ovS" secondAttribute="leading" id="kUc-2F-4Yb"/>
+                            <constraint firstItem="6ev-XT-W2P" firstAttribute="top" secondItem="Yb5-Nq-ovS" secondAttribute="bottom" constant="58" id="kYY-la-oSa"/>
+                            <constraint firstItem="LNI-sc-OxJ" firstAttribute="leading" secondItem="i2S-il-upD" secondAttribute="leading" constant="119" id="lpu-1Y-2Tz"/>
+                            <constraint firstItem="m2G-dN-dWY" firstAttribute="top" secondItem="vB7-Ci-RNd" secondAttribute="bottom" constant="42" id="mz3-FB-YBa"/>
+                            <constraint firstItem="6ev-XT-W2P" firstAttribute="top" secondItem="qmS-w3-yKl" secondAttribute="bottom" constant="8" symbolic="YES" id="nu4-aR-v9Q"/>
+                            <constraint firstAttribute="trailing" secondItem="kkf-Nz-u97" secondAttribute="trailing" id="syr-vR-fI3"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="leading" secondItem="i2S-il-upD" secondAttribute="leading" constant="153" id="tvS-6P-1aX"/>
+                            <constraint firstItem="Yb5-Nq-ovS" firstAttribute="top" secondItem="i2S-il-upD" secondAttribute="top" constant="130" id="yAm-c3-Yqo"/>
+                            <constraint firstItem="qmS-w3-yKl" firstAttribute="trailing" secondItem="Qzd-gA-tKi" secondAttribute="trailing" id="yfW-gq-c9U"/>
+                            <constraint firstItem="Qqp-lK-kAm" firstAttribute="top" secondItem="6ev-XT-W2P" secondAttribute="bottom" constant="56" id="yl3-1b-eq4"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Education" id="oqa-yk-fIy"/>
+                    <connections>
+                        <outlet property="AvailabilityLabel1" destination="6ev-XT-W2P" id="XiU-MC-aok"/>
+                        <outlet property="AvailabilityLabel2" destination="UqQ-U4-Vez" id="e3d-ZG-dpc"/>
+                        <outlet property="AvailabilityLabel3" destination="1vX-CJ-1fe" id="vvB-iE-u0N"/>
+                        <outlet property="SubjectLabel1" destination="qmS-w3-yKl" id="JmM-fX-Eny"/>
+                        <outlet property="SubjectLabel2" destination="Qzd-gA-tKi" id="w4h-PF-c0b"/>
+                        <outlet property="SubjectLabel3" destination="m2G-dN-dWY" id="aKd-fR-9he"/>
+                        <outlet property="TutorLabel1" destination="Yb5-Nq-ovS" id="Pze-HK-ZKO"/>
+                        <outlet property="TutorLabel2" destination="Qqp-lK-kAm" id="nzT-qz-Go8"/>
+                        <outlet property="TutorLabel3" destination="vB7-Ci-RNd" id="hl2-56-OTh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4IS-mD-mty" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2445" y="-656"/>
+        </scene>
+        <!--Comm-->
+        <scene sceneID="OJq-7c-5qc">
+            <objects>
+                <viewController title="Comm" id="VV1-pr-GMB" customClass="CommViewController" customModule="TuffyTutor_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="grv-Ti-olH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yNz-lF-QPP">
+                                <rect key="frame" x="153" y="218" width="241" height="53"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gWI-Nq-GeD">
+                                <rect key="frame" x="153" y="270" width="241" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="tzd-GO-aiP"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHD-Ul-4bB">
+                                <rect key="frame" x="153" y="329" width="241" height="38"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 1">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="anh-n4-H9o">
+                                <rect key="frame" x="153" y="423" width="241" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="u9p-av-kgZ"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 2">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nY6-fM-JFC">
+                                <rect key="frame" x="153" y="473" width="241" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="fdw-OV-oN7"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z1q-Ga-DIa">
+                                <rect key="frame" x="153" y="515" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 2">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x4m-1E-5Hw">
+                                <rect key="frame" x="153" y="593" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 3">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuQ-SA-5iu">
+                                <rect key="frame" x="153" y="655" width="241" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="cmJ-84-OWD"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 3">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bXK-vK-dVD">
+                                <rect key="frame" x="153" y="706" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 3">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QyK-fQ-6kB">
+                                <rect key="frame" x="119" y="776" width="176" height="67"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Click Book a Tutor">
+                                            <attributes>
+                                                <color key="NSBackgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="NSColor" red="0.1206801161" green="0.51199614999999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="20" name="ArialRoundedMTBold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="fne-dB-2uf" kind="show" id="G2Z-7t-tVr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dc3-8F-uTc">
+                                <rect key="frame" x="40" y="72" width="374" height="166"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="166" id="PLD-7Y-FWi"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Below you will find the tutors with their corresponding subjects and availabilities in sequential order!">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.57811000000000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="22" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RME-at-o0n"/>
+                        <color key="backgroundColor" red="0.67312031979999998" green="0.82773321870000005" blue="0.99987763169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Dc3-8F-uTc" firstAttribute="leading" secondItem="RME-at-o0n" secondAttribute="leading" constant="40" id="0HD-v2-KNs"/>
+                            <constraint firstAttribute="trailing" secondItem="Dc3-8F-uTc" secondAttribute="trailing" id="2aX-jJ-ip7"/>
+                            <constraint firstItem="anh-n4-H9o" firstAttribute="top" secondItem="grv-Ti-olH" secondAttribute="top" constant="423" id="5bw-1S-4bQ"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="trailing" secondItem="grv-Ti-olH" secondAttribute="trailingMargin" id="6u8-T2-qHZ"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="leading" secondItem="x4m-1E-5Hw" secondAttribute="leading" id="8Yw-dT-9Ns"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="trailing" secondItem="WHD-Ul-4bB" secondAttribute="trailing" id="BU3-yu-zxq"/>
+                            <constraint firstItem="yNz-lF-QPP" firstAttribute="top" secondItem="RME-at-o0n" secondAttribute="top" constant="130" id="EB1-3D-sgX"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="leading" secondItem="Z1q-Ga-DIa" secondAttribute="leading" id="FPg-fH-Dq3"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="leading" secondItem="bXK-vK-dVD" secondAttribute="leading" id="FtN-L4-acV"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="leading" secondItem="nY6-fM-JFC" secondAttribute="leading" id="FxY-jf-fhQ"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="trailing" secondItem="yNz-lF-QPP" secondAttribute="trailing" id="G6K-SC-19O"/>
+                            <constraint firstItem="Dc3-8F-uTc" firstAttribute="top" secondItem="grv-Ti-olH" secondAttribute="topMargin" constant="-16" id="GmP-zc-VXJ"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="trailing" secondItem="tuQ-SA-5iu" secondAttribute="trailing" id="H0x-oH-f1Z"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="top" secondItem="Dc3-8F-uTc" secondAttribute="bottom" constant="32" id="JTx-pY-o9b"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="leading" secondItem="anh-n4-H9o" secondAttribute="leading" id="PWV-HM-hSI"/>
+                            <constraint firstItem="Z1q-Ga-DIa" firstAttribute="top" secondItem="anh-n4-H9o" secondAttribute="bottom" constant="40" id="PXk-ht-Wyn"/>
+                            <constraint firstItem="tuQ-SA-5iu" firstAttribute="top" secondItem="x4m-1E-5Hw" secondAttribute="bottom" constant="42" id="Q6I-as-Eca"/>
+                            <constraint firstItem="x4m-1E-5Hw" firstAttribute="top" secondItem="nY6-fM-JFC" secondAttribute="bottom" constant="74" id="Qat-XL-65j"/>
+                            <constraint firstAttribute="bottom" secondItem="nY6-fM-JFC" secondAttribute="bottom" constant="377" id="ayh-eR-8Dr"/>
+                            <constraint firstItem="QyK-fQ-6kB" firstAttribute="leading" secondItem="RME-at-o0n" secondAttribute="leading" constant="119" id="ej3-p2-dkS"/>
+                            <constraint firstItem="WHD-Ul-4bB" firstAttribute="top" secondItem="gWI-Nq-GeD" secondAttribute="bottom" constant="8" symbolic="YES" id="f5Q-EF-fkL"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="trailing" secondItem="bXK-vK-dVD" secondAttribute="trailing" id="ftW-fR-vfj"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="trailing" secondItem="anh-n4-H9o" secondAttribute="trailing" id="gSX-br-0UE"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="leading" secondItem="RME-at-o0n" secondAttribute="leading" constant="153" id="iQw-0L-eyO"/>
+                            <constraint firstItem="RME-at-o0n" firstAttribute="bottom" secondItem="QyK-fQ-6kB" secondAttribute="bottom" constant="19" id="j4Z-Il-6dg"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="trailing" secondItem="x4m-1E-5Hw" secondAttribute="trailing" id="jrc-Aw-sHe"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="trailing" secondItem="Z1q-Ga-DIa" secondAttribute="trailing" id="ldi-gG-tLm"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="trailing" secondItem="nY6-fM-JFC" secondAttribute="trailing" id="rwO-U5-72l"/>
+                            <constraint firstItem="QyK-fQ-6kB" firstAttribute="top" secondItem="bXK-vK-dVD" secondAttribute="bottom" constant="50" id="sJm-g7-kDk"/>
+                            <constraint firstItem="bXK-vK-dVD" firstAttribute="top" secondItem="tuQ-SA-5iu" secondAttribute="bottom" constant="8" symbolic="YES" id="ssQ-cf-Geg"/>
+                            <constraint firstItem="QyK-fQ-6kB" firstAttribute="centerX" secondItem="grv-Ti-olH" secondAttribute="centerX" id="tKb-C5-sc7"/>
+                            <constraint firstItem="WHD-Ul-4bB" firstAttribute="top" secondItem="yNz-lF-QPP" secondAttribute="bottom" constant="58" id="uG1-u2-xXS"/>
+                            <constraint firstItem="anh-n4-H9o" firstAttribute="top" secondItem="WHD-Ul-4bB" secondAttribute="bottom" constant="56" id="uHA-yJ-69r"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="leading" secondItem="yNz-lF-QPP" secondAttribute="leading" id="vdk-PA-ZKu"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="leading" secondItem="tuQ-SA-5iu" secondAttribute="leading" id="yR6-93-B4g"/>
+                            <constraint firstItem="gWI-Nq-GeD" firstAttribute="leading" secondItem="WHD-Ul-4bB" secondAttribute="leading" id="yv7-8r-yPf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Education" id="qvO-Dj-ycD"/>
+                    <connections>
+                        <outlet property="AvailabilityLabel1" destination="WHD-Ul-4bB" id="oSH-GB-H6z"/>
+                        <outlet property="AvailabilityLabel2" destination="Z1q-Ga-DIa" id="dGD-7h-ck7"/>
+                        <outlet property="AvailabilityLabel3" destination="bXK-vK-dVD" id="hIv-oC-RGW"/>
+                        <outlet property="SubjectLabel1" destination="gWI-Nq-GeD" id="xV7-J5-Gjt"/>
+                        <outlet property="SubjectLabel2" destination="nY6-fM-JFC" id="GeC-0b-bxC"/>
+                        <outlet property="SubjectLabel3" destination="tuQ-SA-5iu" id="O40-ok-zsb"/>
+                        <outlet property="TutorLabel1" destination="yNz-lF-QPP" id="x5h-Nl-IHH"/>
+                        <outlet property="TutorLabel2" destination="anh-n4-H9o" id="nYq-GZ-QX0"/>
+                        <outlet property="TutorLabel3" destination="x4m-1E-5Hw" id="MIQ-GA-RLF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gjo-tZ-7FE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3267" y="-656"/>
+        </scene>
+        <!--Humanities-->
+        <scene sceneID="4XR-nv-zzX">
+            <objects>
+                <viewController title="Humanities" id="IxW-Wa-KTE" customClass="HumanViewController" customModule="TuffyTutor_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PMt-zh-xYJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="arX-oo-36e">
+                                <rect key="frame" x="153" y="218" width="241" height="53"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E2E-zT-Lug">
+                                <rect key="frame" x="153" y="270" width="241" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="QxI-xx-DYG"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lp8-ZT-zrI">
+                                <rect key="frame" x="153" y="329" width="241" height="38"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 1">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mxh-y7-JaC">
+                                <rect key="frame" x="153" y="423" width="241" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="MJi-df-iIU"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 2">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIj-zF-buH">
+                                <rect key="frame" x="153" y="473" width="241" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="YeJ-Vo-ACx"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nf2-uh-ZN6">
+                                <rect key="frame" x="153" y="515" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 2">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uX0-bl-heO">
+                                <rect key="frame" x="153" y="593" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 3">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5R6-iQ-cTL">
+                                <rect key="frame" x="153" y="655" width="241" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="iP3-ch-0FU"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 3">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POy-H0-bDC">
+                                <rect key="frame" x="153" y="706" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 3">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ggr-8q-CYy">
+                                <rect key="frame" x="119" y="776" width="176" height="67"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Click Book a Tutor">
+                                            <attributes>
+                                                <color key="NSBackgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="NSColor" red="0.1206801161" green="0.51199614999999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="20" name="ArialRoundedMTBold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="fne-dB-2uf" kind="show" id="6XZ-B9-a9q"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mGw-Vu-ikD">
+                                <rect key="frame" x="40" y="72" width="374" height="166"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="166" id="NPY-dy-lRL"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Below you will find the tutors with their corresponding subjects and availabilities in sequential order!">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.57811000000000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="22" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Rmf-tM-9nw"/>
+                        <color key="backgroundColor" red="0.67312031979999998" green="0.82773321870000005" blue="0.99987763169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="trailing" secondItem="PMt-zh-xYJ" secondAttribute="trailingMargin" id="71X-CH-phG"/>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="top" secondItem="mGw-Vu-ikD" secondAttribute="bottom" constant="32" id="798-OI-mDk"/>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="leading" secondItem="POy-H0-bDC" secondAttribute="leading" id="7Je-Au-wab"/>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="trailing" secondItem="uX0-bl-heO" secondAttribute="trailing" id="CTh-zk-6OW"/>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="leading" secondItem="arX-oo-36e" secondAttribute="leading" id="DUv-wD-AXJ"/>
+                            <constraint firstItem="Mxh-y7-JaC" firstAttribute="top" secondItem="Lp8-ZT-zrI" secondAttribute="bottom" constant="56" id="Gu5-Zv-f8s"/>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="leading" secondItem="Nf2-uh-ZN6" secondAttribute="leading" id="Hab-il-d3c"/>
+                            <constraint firstItem="Ggr-8q-CYy" firstAttribute="leading" secondItem="Rmf-tM-9nw" secondAttribute="leading" constant="119" id="JSg-8S-hAc"/>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="trailing" secondItem="Lp8-ZT-zrI" secondAttribute="trailing" id="Jif-aA-qN6"/>
+                            <constraint firstAttribute="bottom" secondItem="wIj-zF-buH" secondAttribute="bottom" constant="377" id="Ll0-Iv-259"/>
+                            <constraint firstItem="Mxh-y7-JaC" firstAttribute="top" secondItem="PMt-zh-xYJ" secondAttribute="top" constant="423" id="Mnd-HG-2f6"/>
+                            <constraint firstItem="Nf2-uh-ZN6" firstAttribute="top" secondItem="Mxh-y7-JaC" secondAttribute="bottom" constant="40" id="N6C-6P-HUJ"/>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="leading" secondItem="wIj-zF-buH" secondAttribute="leading" id="N88-cc-7ZC"/>
+                            <constraint firstItem="mGw-Vu-ikD" firstAttribute="leading" secondItem="Rmf-tM-9nw" secondAttribute="leading" constant="40" id="Q2V-Qc-Hbw"/>
+                            <constraint firstItem="POy-H0-bDC" firstAttribute="top" secondItem="5R6-iQ-cTL" secondAttribute="bottom" constant="8" symbolic="YES" id="Rw5-VW-suL"/>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="trailing" secondItem="Mxh-y7-JaC" secondAttribute="trailing" id="StB-2I-l6s"/>
+                            <constraint firstItem="Rmf-tM-9nw" firstAttribute="bottom" secondItem="Ggr-8q-CYy" secondAttribute="bottom" constant="19" id="UUu-1W-xRK"/>
+                            <constraint firstItem="Ggr-8q-CYy" firstAttribute="centerX" secondItem="PMt-zh-xYJ" secondAttribute="centerX" id="Vle-ku-HZb"/>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="trailing" secondItem="Nf2-uh-ZN6" secondAttribute="trailing" id="WAU-60-Khf"/>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="trailing" secondItem="POy-H0-bDC" secondAttribute="trailing" id="Wbz-LV-PXX"/>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="leading" secondItem="Rmf-tM-9nw" secondAttribute="leading" constant="153" id="XLn-pF-R8e"/>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="leading" secondItem="uX0-bl-heO" secondAttribute="leading" id="Xmm-8f-n65"/>
+                            <constraint firstItem="Lp8-ZT-zrI" firstAttribute="top" secondItem="arX-oo-36e" secondAttribute="bottom" constant="58" id="eOe-dY-K1r"/>
+                            <constraint firstAttribute="trailing" secondItem="mGw-Vu-ikD" secondAttribute="trailing" id="fCd-Wt-sTb"/>
+                            <constraint firstItem="5R6-iQ-cTL" firstAttribute="top" secondItem="uX0-bl-heO" secondAttribute="bottom" constant="42" id="fIB-lD-CKq"/>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="trailing" secondItem="5R6-iQ-cTL" secondAttribute="trailing" id="feJ-7N-zdy"/>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="trailing" secondItem="arX-oo-36e" secondAttribute="trailing" id="gpe-9x-hAF"/>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="leading" secondItem="5R6-iQ-cTL" secondAttribute="leading" id="h3P-TB-2sQ"/>
+                            <constraint firstItem="Ggr-8q-CYy" firstAttribute="top" secondItem="POy-H0-bDC" secondAttribute="bottom" constant="50" id="iTn-rm-2OK"/>
+                            <constraint firstItem="uX0-bl-heO" firstAttribute="top" secondItem="wIj-zF-buH" secondAttribute="bottom" constant="74" id="kHP-7R-SCC"/>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="trailing" secondItem="wIj-zF-buH" secondAttribute="trailing" id="qSH-R0-bv6"/>
+                            <constraint firstItem="arX-oo-36e" firstAttribute="top" secondItem="Rmf-tM-9nw" secondAttribute="top" constant="130" id="rp1-UR-On0"/>
+                            <constraint firstItem="mGw-Vu-ikD" firstAttribute="top" secondItem="PMt-zh-xYJ" secondAttribute="topMargin" constant="-16" id="tvx-Kg-2BJ"/>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="leading" secondItem="Lp8-ZT-zrI" secondAttribute="leading" id="ve4-nm-HLM"/>
+                            <constraint firstItem="Lp8-ZT-zrI" firstAttribute="top" secondItem="E2E-zT-Lug" secondAttribute="bottom" constant="8" symbolic="YES" id="wrR-Tf-1Mp"/>
+                            <constraint firstItem="E2E-zT-Lug" firstAttribute="leading" secondItem="Mxh-y7-JaC" secondAttribute="leading" id="zR5-RC-oGm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Education" id="9ah-ZA-JBs"/>
+                    <connections>
+                        <outlet property="AvailabilityLabel1" destination="Lp8-ZT-zrI" id="h6W-XY-d0q"/>
+                        <outlet property="AvailabilityLabel2" destination="Nf2-uh-ZN6" id="tgh-9Z-T2B"/>
+                        <outlet property="AvailabilityLabel3" destination="POy-H0-bDC" id="uDy-9Y-rXO"/>
+                        <outlet property="SubjectLabel1" destination="E2E-zT-Lug" id="XwV-WJ-Ct6"/>
+                        <outlet property="SubjectLabel2" destination="wIj-zF-buH" id="3mP-KY-jgY"/>
+                        <outlet property="SubjectLabel3" destination="5R6-iQ-cTL" id="Hgb-t8-VnC"/>
+                        <outlet property="TutorLabel1" destination="arX-oo-36e" id="lxw-Qg-WL5"/>
+                        <outlet property="TutorLabel2" destination="Mxh-y7-JaC" id="2GD-01-8sF"/>
+                        <outlet property="TutorLabel3" destination="uX0-bl-heO" id="2No-ai-Y0S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7O8-LE-F2M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2490" y="812"/>
+        </scene>
+        <!--Health-->
+        <scene sceneID="Ba5-1l-2W4">
+            <objects>
+                <viewController title="Health" id="v4w-LJ-jAr" customClass="HealthViewController" customModule="TuffyTutor_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x35-K1-Rg8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uyp-eY-2W3">
+                                <rect key="frame" x="153" y="218" width="241" height="53"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJg-51-avt">
+                                <rect key="frame" x="153" y="270" width="241" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="cNs-nP-X8v"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zT1-ux-VYo">
+                                <rect key="frame" x="153" y="329" width="241" height="38"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 1">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tfk-Bp-1kM">
+                                <rect key="frame" x="153" y="423" width="241" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="zYX-VZ-Wnh"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 2">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwN-RK-QHy">
+                                <rect key="frame" x="153" y="473" width="241" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="eZL-gP-UIw"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Has-CV-Rcd">
+                                <rect key="frame" x="153" y="515" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 2">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hr-F8-aRK">
+                                <rect key="frame" x="153" y="593" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 3">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="12K-Kb-80b">
+                                <rect key="frame" x="153" y="655" width="241" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="KN6-h6-ir4"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 3">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YaX-jt-Moh">
+                                <rect key="frame" x="153" y="706" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 3">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GUA-0J-NhP">
+                                <rect key="frame" x="119" y="776" width="176" height="67"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Click Book a Tutor">
+                                            <attributes>
+                                                <color key="NSBackgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="NSColor" red="0.1206801161" green="0.51199614999999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="20" name="ArialRoundedMTBold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="fne-dB-2uf" kind="show" id="EZG-Tn-naT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Xj-Ek-rjj">
+                                <rect key="frame" x="40" y="72" width="374" height="166"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="166" id="aTE-2S-E0n"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Below you will find the tutors with their corresponding subjects and availabilities in sequential order!">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.57811000000000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="22" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fHu-57-ECx"/>
+                        <color key="backgroundColor" red="0.67312031979999998" green="0.82773321870000005" blue="0.99987763169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="leading" secondItem="Tfk-Bp-1kM" secondAttribute="leading" id="0xF-xz-Ccj"/>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="leading" secondItem="bwN-RK-QHy" secondAttribute="leading" id="4lg-1n-bId"/>
+                            <constraint firstItem="GUA-0J-NhP" firstAttribute="centerX" secondItem="x35-K1-Rg8" secondAttribute="centerX" id="8gt-sB-URs"/>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="leading" secondItem="Has-CV-Rcd" secondAttribute="leading" id="D5j-ua-boH"/>
+                            <constraint firstItem="Tfk-Bp-1kM" firstAttribute="top" secondItem="zT1-ux-VYo" secondAttribute="bottom" constant="56" id="D9z-aP-7Ri"/>
+                            <constraint firstItem="uyp-eY-2W3" firstAttribute="top" secondItem="fHu-57-ECx" secondAttribute="top" constant="130" id="GIe-Nh-att"/>
+                            <constraint firstItem="Has-CV-Rcd" firstAttribute="top" secondItem="Tfk-Bp-1kM" secondAttribute="bottom" constant="40" id="Hoj-oE-jet"/>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="leading" secondItem="2hr-F8-aRK" secondAttribute="leading" id="K3K-ku-PHS"/>
+                            <constraint firstItem="GUA-0J-NhP" firstAttribute="leading" secondItem="fHu-57-ECx" secondAttribute="leading" constant="119" id="LaB-HP-8Zu"/>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="trailing" secondItem="12K-Kb-80b" secondAttribute="trailing" id="Ly3-pM-9LE"/>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="leading" secondItem="fHu-57-ECx" secondAttribute="leading" constant="153" id="MuH-Fc-GAg"/>
+                            <constraint firstItem="GUA-0J-NhP" firstAttribute="top" secondItem="YaX-jt-Moh" secondAttribute="bottom" constant="50" id="MvN-fe-alW"/>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="trailing" secondItem="uyp-eY-2W3" secondAttribute="trailing" id="Oip-ge-Uc6"/>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="trailing" secondItem="bwN-RK-QHy" secondAttribute="trailing" id="WCs-iA-3Oz"/>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="leading" secondItem="uyp-eY-2W3" secondAttribute="leading" id="WPL-y9-BWp"/>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="leading" secondItem="YaX-jt-Moh" secondAttribute="leading" id="XCd-vk-WPg"/>
+                            <constraint firstItem="YaX-jt-Moh" firstAttribute="top" secondItem="12K-Kb-80b" secondAttribute="bottom" constant="8" symbolic="YES" id="YFB-6s-6Hs"/>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="leading" secondItem="12K-Kb-80b" secondAttribute="leading" id="a7S-6X-kf3"/>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="top" secondItem="7Xj-Ek-rjj" secondAttribute="bottom" constant="32" id="bft-Mp-EpJ"/>
+                            <constraint firstItem="zT1-ux-VYo" firstAttribute="top" secondItem="uyp-eY-2W3" secondAttribute="bottom" constant="58" id="dar-xD-EMr"/>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="trailing" secondItem="Has-CV-Rcd" secondAttribute="trailing" id="dcy-OT-3Zu"/>
+                            <constraint firstItem="fHu-57-ECx" firstAttribute="bottom" secondItem="GUA-0J-NhP" secondAttribute="bottom" constant="19" id="en8-rM-pih"/>
+                            <constraint firstItem="2hr-F8-aRK" firstAttribute="top" secondItem="bwN-RK-QHy" secondAttribute="bottom" constant="74" id="euC-VY-OjC"/>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="trailing" secondItem="2hr-F8-aRK" secondAttribute="trailing" id="fW2-cu-abe"/>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="trailing" secondItem="YaX-jt-Moh" secondAttribute="trailing" id="fy2-Q4-UKT"/>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="trailing" secondItem="zT1-ux-VYo" secondAttribute="trailing" id="gy2-J0-XRP"/>
+                            <constraint firstAttribute="trailing" secondItem="7Xj-Ek-rjj" secondAttribute="trailing" id="jfk-8c-E1r"/>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="trailing" secondItem="Tfk-Bp-1kM" secondAttribute="trailing" id="jwa-wy-Lh9"/>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="trailing" secondItem="x35-K1-Rg8" secondAttribute="trailingMargin" id="lTT-A7-vnm"/>
+                            <constraint firstItem="12K-Kb-80b" firstAttribute="top" secondItem="2hr-F8-aRK" secondAttribute="bottom" constant="42" id="nUl-Af-ENV"/>
+                            <constraint firstItem="7Xj-Ek-rjj" firstAttribute="leading" secondItem="fHu-57-ECx" secondAttribute="leading" constant="40" id="nkr-pl-WIP"/>
+                            <constraint firstItem="sJg-51-avt" firstAttribute="leading" secondItem="zT1-ux-VYo" secondAttribute="leading" id="pmq-KJ-DIQ"/>
+                            <constraint firstAttribute="bottom" secondItem="bwN-RK-QHy" secondAttribute="bottom" constant="377" id="s72-eA-HIG"/>
+                            <constraint firstItem="zT1-ux-VYo" firstAttribute="top" secondItem="sJg-51-avt" secondAttribute="bottom" constant="8" symbolic="YES" id="sic-G1-TCo"/>
+                            <constraint firstItem="Tfk-Bp-1kM" firstAttribute="top" secondItem="x35-K1-Rg8" secondAttribute="top" constant="423" id="tpz-Eb-ymQ"/>
+                            <constraint firstItem="7Xj-Ek-rjj" firstAttribute="top" secondItem="x35-K1-Rg8" secondAttribute="topMargin" constant="-16" id="xGq-60-ncT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Education" id="ksI-o0-mYD"/>
+                    <connections>
+                        <outlet property="AvailabilityLabel1" destination="zT1-ux-VYo" id="5af-me-5U9"/>
+                        <outlet property="AvailabilityLabel2" destination="Has-CV-Rcd" id="Sbr-Ai-vap"/>
+                        <outlet property="AvailabilityLabel3" destination="YaX-jt-Moh" id="m6a-wY-ZYw"/>
+                        <outlet property="SubjectLabel1" destination="sJg-51-avt" id="Ewc-GB-x0Z"/>
+                        <outlet property="SubjectLabel2" destination="bwN-RK-QHy" id="6zd-cW-0mp"/>
+                        <outlet property="SubjectLabel3" destination="12K-Kb-80b" id="rXc-cM-R0e"/>
+                        <outlet property="TutorLabel1" destination="uyp-eY-2W3" id="h3R-2u-YCY"/>
+                        <outlet property="TutorLabel2" destination="Tfk-Bp-1kM" id="S2p-Kw-Fbp"/>
+                        <outlet property="TutorLabel3" destination="2hr-F8-aRK" id="kWC-xQ-Ypq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cao-eT-3DI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1661" y="812"/>
+        </scene>
+        <!--ECS-->
+        <scene sceneID="1MH-GW-qiZ">
+            <objects>
+                <viewController title="ECS" id="4i0-xI-MOh" customClass="ECSViewController" customModule="TuffyTutor_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cOr-7J-cm1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CQl-Hc-wi5">
+                                <rect key="frame" x="153" y="218" width="241" height="53"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Bl-xo-nRf">
+                                <rect key="frame" x="153" y="270" width="241" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="oG1-gU-a6I"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1tn-86-IQ0">
+                                <rect key="frame" x="153" y="329" width="241" height="38"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 1">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6c-h4-U0N">
+                                <rect key="frame" x="153" y="423" width="241" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="j4r-Vc-bs6"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 2">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sih-8U-cWm">
+                                <rect key="frame" x="153" y="473" width="241" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="a7Z-ZR-K4O"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 1">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j2N-tr-6fL">
+                                <rect key="frame" x="153" y="515" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 2">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUv-I6-w4u">
+                                <rect key="frame" x="153" y="593" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tutor Label 3">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zcl-0g-vyc">
+                                <rect key="frame" x="153" y="655" width="241" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="BT3-2Y-TTH"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Subject Label 3">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOX-FK-Npv">
+                                <rect key="frame" x="153" y="706" width="241" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Availability Label 3">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Osr-c9-U9A">
+                                <rect key="frame" x="119" y="776" width="176" height="67"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Click Book a Tutor">
+                                            <attributes>
+                                                <color key="NSBackgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="NSColor" red="0.1206801161" green="0.51199614999999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="20" name="ArialRoundedMTBold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="fne-dB-2uf" kind="show" id="fAa-dl-fHZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0C-ew-Vy1">
+                                <rect key="frame" x="40" y="72" width="374" height="166"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="166" id="0rL-UI-qTq"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Below you will find the tutors with their corresponding subjects and availabilities in sequential order!">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.57811000000000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="22" name="ArialRoundedMTBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="p96-oS-AOe"/>
+                        <color key="backgroundColor" red="0.67312031979999998" green="0.82773321870000005" blue="0.99987763169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="s0C-ew-Vy1" firstAttribute="leading" secondItem="p96-oS-AOe" secondAttribute="leading" constant="40" id="0ZY-EE-GZB"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="leading" secondItem="CQl-Hc-wi5" secondAttribute="leading" id="5JK-GA-3VN"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="leading" secondItem="Zcl-0g-vyc" secondAttribute="leading" id="5dL-Hb-nUn"/>
+                            <constraint firstItem="j2N-tr-6fL" firstAttribute="top" secondItem="y6c-h4-U0N" secondAttribute="bottom" constant="40" id="8sI-TX-JM7"/>
+                            <constraint firstItem="s0C-ew-Vy1" firstAttribute="top" secondItem="cOr-7J-cm1" secondAttribute="topMargin" constant="-16" id="A3L-hQ-G5q"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="trailing" secondItem="y6c-h4-U0N" secondAttribute="trailing" id="AWJ-kv-Nhi"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="trailing" secondItem="Sih-8U-cWm" secondAttribute="trailing" id="BIc-Fj-UaU"/>
+                            <constraint firstItem="1tn-86-IQ0" firstAttribute="top" secondItem="9Bl-xo-nRf" secondAttribute="bottom" constant="8" symbolic="YES" id="CHr-FU-OuY"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="trailing" secondItem="1tn-86-IQ0" secondAttribute="trailing" id="FUy-7Q-XW4"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="trailing" secondItem="Zcl-0g-vyc" secondAttribute="trailing" id="Fz8-e0-472"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="leading" secondItem="1tn-86-IQ0" secondAttribute="leading" id="GfN-sm-sUM"/>
+                            <constraint firstItem="fOX-FK-Npv" firstAttribute="top" secondItem="Zcl-0g-vyc" secondAttribute="bottom" constant="8" symbolic="YES" id="Hju-VP-wMK"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="trailing" secondItem="j2N-tr-6fL" secondAttribute="trailing" id="Hlp-zx-Zs0"/>
+                            <constraint firstItem="Osr-c9-U9A" firstAttribute="centerX" secondItem="cOr-7J-cm1" secondAttribute="centerX" id="Iig-yz-Ra2"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="leading" secondItem="y6c-h4-U0N" secondAttribute="leading" id="ODC-0d-E21"/>
+                            <constraint firstItem="y6c-h4-U0N" firstAttribute="top" secondItem="cOr-7J-cm1" secondAttribute="top" constant="423" id="R2i-Eu-V7C"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="trailing" secondItem="fOX-FK-Npv" secondAttribute="trailing" id="SOE-mA-gah"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="trailing" secondItem="FUv-I6-w4u" secondAttribute="trailing" id="TO0-Em-p0h"/>
+                            <constraint firstItem="Osr-c9-U9A" firstAttribute="leading" secondItem="p96-oS-AOe" secondAttribute="leading" constant="119" id="VJo-Sa-8r3"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="leading" secondItem="FUv-I6-w4u" secondAttribute="leading" id="XgB-fm-RsD"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="trailing" secondItem="cOr-7J-cm1" secondAttribute="trailingMargin" id="Ysu-tU-CAw"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="leading" secondItem="j2N-tr-6fL" secondAttribute="leading" id="ZUx-iY-K7i"/>
+                            <constraint firstItem="FUv-I6-w4u" firstAttribute="top" secondItem="Sih-8U-cWm" secondAttribute="bottom" constant="74" id="aqM-Dt-4L3"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="leading" secondItem="Sih-8U-cWm" secondAttribute="leading" id="cBU-Y3-wJE"/>
+                            <constraint firstItem="CQl-Hc-wi5" firstAttribute="top" secondItem="p96-oS-AOe" secondAttribute="top" constant="130" id="cX3-Rs-sN2"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="top" secondItem="s0C-ew-Vy1" secondAttribute="bottom" constant="32" id="dAm-9d-N3l"/>
+                            <constraint firstItem="y6c-h4-U0N" firstAttribute="top" secondItem="1tn-86-IQ0" secondAttribute="bottom" constant="56" id="f47-CE-Idp"/>
+                            <constraint firstItem="p96-oS-AOe" firstAttribute="bottom" secondItem="Osr-c9-U9A" secondAttribute="bottom" constant="19" id="iai-ln-cl3"/>
+                            <constraint firstItem="1tn-86-IQ0" firstAttribute="top" secondItem="CQl-Hc-wi5" secondAttribute="bottom" constant="58" id="kRf-lW-6jI"/>
+                            <constraint firstAttribute="bottom" secondItem="Sih-8U-cWm" secondAttribute="bottom" constant="377" id="mVs-GP-YpT"/>
+                            <constraint firstItem="Osr-c9-U9A" firstAttribute="top" secondItem="fOX-FK-Npv" secondAttribute="bottom" constant="50" id="mXU-kt-jRb"/>
+                            <constraint firstAttribute="trailing" secondItem="s0C-ew-Vy1" secondAttribute="trailing" id="pbE-i2-oPF"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="trailing" secondItem="CQl-Hc-wi5" secondAttribute="trailing" id="t86-PD-XjM"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="leading" secondItem="fOX-FK-Npv" secondAttribute="leading" id="w9B-hg-6i4"/>
+                            <constraint firstItem="Zcl-0g-vyc" firstAttribute="top" secondItem="FUv-I6-w4u" secondAttribute="bottom" constant="42" id="y1j-Ph-m90"/>
+                            <constraint firstItem="9Bl-xo-nRf" firstAttribute="leading" secondItem="p96-oS-AOe" secondAttribute="leading" constant="153" id="yiW-4u-ASm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Education" id="Wi0-fQ-6fR"/>
+                    <connections>
+                        <outlet property="AvailabilityLabel1" destination="1tn-86-IQ0" id="Ajq-cT-ToN"/>
+                        <outlet property="AvailabilityLabel2" destination="j2N-tr-6fL" id="SAw-5c-HQF"/>
+                        <outlet property="AvailabilityLabel3" destination="fOX-FK-Npv" id="IEQ-JQ-0p1"/>
+                        <outlet property="SubjectLabel1" destination="9Bl-xo-nRf" id="mI5-l8-RXT"/>
+                        <outlet property="SubjectLabel2" destination="Sih-8U-cWm" id="ayS-3M-qDW"/>
+                        <outlet property="SubjectLabel3" destination="Zcl-0g-vyc" id="Rro-1z-1up"/>
+                        <outlet property="TutorLabel1" destination="CQl-Hc-wi5" id="KDB-G1-jno"/>
+                        <outlet property="TutorLabel2" destination="y6c-h4-U0N" id="1cP-8a-axQ"/>
+                        <outlet property="TutorLabel3" destination="FUv-I6-w4u" id="BfI-o5-mCL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qmf-RL-06a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="929" y="812"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="J8c-V1-YGi"/>
+        <segue reference="Us8-Cj-dG8"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Tuffy" width="600" height="600"/>
