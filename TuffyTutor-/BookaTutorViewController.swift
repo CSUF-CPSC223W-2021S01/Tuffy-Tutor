@@ -36,6 +36,8 @@ class BookaTutorViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var inputEndtime: UITextField!
     
+    var bookTutor : bookaTutor? // this is where I initilize user input into object
+    var booking : Book?         // encode/decode located here
     
     let userTutor = UserDefaults()
     let userSubj = UserDefaults()
@@ -69,6 +71,11 @@ class BookaTutorViewController: UIViewController, UITextFieldDelegate {
         if let value5 = userTutor.value(forKey: "End Name") as? String {
             EndTimeLabel.text = "last saved End time was " + value5 + ". What End time would you like now?"
         }
+        
+        bookTutor = bookaTutor(Tutor: TutorNameLabel.text!, Subject: SubjectNameLabel.text! , day: DayNameLabel.text!, StartTime: StartTimeLabel.text!, EndTime: EndTimeLabel.text!)
+        
+        booking = Book()
+        //
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
@@ -82,6 +89,9 @@ class BookaTutorViewController: UIViewController, UITextFieldDelegate {
        // inputTutor.resignFirstResponder() // tells system to return keyboard
         return true
     }
+    
+    
+    
     
     /*
      // MARK: - Navigation
