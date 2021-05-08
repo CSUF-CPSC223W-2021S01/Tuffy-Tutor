@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A35086B0264606A700971F83 /* BookaTutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35086AF264606A700971F83 /* BookaTutor.swift */; };
 		A3EC8E702644E9DE003A3D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8E6F2644E9DE003A3D91 /* AppDelegate.swift */; };
 		A3EC8E722644E9DE003A3D91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC8E712644E9DE003A3D91 /* SceneDelegate.swift */; };
 		A3EC8E772644E9DE003A3D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EC8E752644E9DE003A3D91 /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A35086AF264606A700971F83 /* BookaTutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookaTutor.swift; sourceTree = "<group>"; };
 		A3EC8E6C2644E9DE003A3D91 /* TuffyTutor-.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TuffyTutor-.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EC8E6F2644E9DE003A3D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3EC8E712644E9DE003A3D91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				A3EC8E712644E9DE003A3D91 /* SceneDelegate.swift */,
 				A3EC8E752644E9DE003A3D91 /* Main.storyboard */,
 				A3EC8F5026450163003A3D91 /* BookaTutorViewController.swift */,
+				A35086AF264606A700971F83 /* BookaTutor.swift */,
 				A3EC8ECD2644F4A1003A3D91 /* ViewController.swift */,
 				A3EC8EC32644F0FB003A3D91 /* HumanViewController.swift */,
 				A3EC8EC82644F10A003A3D91 /* NaturalViewController.swift */,
@@ -303,6 +306,7 @@
 				A3EC8EBA2644F0D6003A3D91 /* ECSViewController.swift in Sources */,
 				A3EC8F60264506B7003A3D91 /* Availability.swift in Sources */,
 				A3EC8EBF2644F0E9003A3D91 /* HealthViewController.swift in Sources */,
+				A35086B0264606A700971F83 /* BookaTutor.swift in Sources */,
 				A3EC8EB02644F0B4003A3D91 /* ArtsViewController.swift in Sources */,
 				A3EC8ECE2644F4A1003A3D91 /* ViewController.swift in Sources */,
 				A3EC8EB52644F0C5003A3D91 /* CommViewController.swift in Sources */,
@@ -500,9 +504,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.habiesmart.myapps;
 
 
+				PRODUCT_BUNDLE_IDENTIFIER = com.habiesmart.myapps;
+
+
 				PRODUCT_BUNDLE_IDENTIFIER = "com.habiesmart.myapps--com.habiesmart.myapps";
 
 				PRODUCT_BUNDLE_IDENTIFIER = com.TuffyTutor.myapps;
+
 
 
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,9 +537,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.habiesmart.myapps;
 
 
+				PRODUCT_BUNDLE_IDENTIFIER = com.habiesmart.myapps;
+
+
 				PRODUCT_BUNDLE_IDENTIFIER = "com.habiesmart.myapps--com.habiesmart.myapps";
 
 				PRODUCT_BUNDLE_IDENTIFIER = com.TuffyTutor.myapps;
+
 
 
 				PRODUCT_NAME = "$(TARGET_NAME)";
