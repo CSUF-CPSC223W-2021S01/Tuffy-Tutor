@@ -29,5 +29,14 @@ class TuffyTutor_Tests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testAvailability(){
+        
+        let DoWtest = daysOfWeek(day: "Monday", startTime: 800, endTime: 900)
+        
+        XCTAssertEqual(DoWtest.day, "Monday")
+        XCTAssertEqual(DoWtest.startTime, 800)
+        XCTAssertEqual(DoWtest.endTime, 900)
+    }
 
 }

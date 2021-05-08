@@ -36,7 +36,8 @@ class BookaTutorViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var inputEndtime: UITextField!
     
-    @IBAction func Reset(_ sender: Any) {
+    
+    @IBAction func Reset(_ sender: UIButton) {
     }
     
     let userTutor = UserDefaults()
