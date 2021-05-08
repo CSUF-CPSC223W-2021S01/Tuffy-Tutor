@@ -30,4 +30,42 @@ class TuffyTutor_Tests: XCTestCase {
         }
     }
 
+    
+    func testAvailability(){
+        
+
+ 
+    func testSubject()
+    {
+        let SubjectTest = Subject(ClassSub: "Math")
+        
+        XCTAssertEqual(SubjectTest.ClassSub, "Math")
+        XCTAssertEqual(SubjectTest.getSubjectString(), "Subject: Math")
+    }
+    
+    func testTutor()
+    {
+        let TutorTest = Tutor(Tutors: "Spongebob")
+        
+        XCTAssertEqual(TutorTest.Tutors, "Spongebob")
+        XCTAssertEqual(TutorTest.getTutorString(), "Tutor is Spongebob")
+        
+    }
+    
+    func testAvailability()
+    {
+
+        let DoWtest = daysOfWeek(day: "Monday", startTime: 800, endTime: 900)
+        
+        XCTAssertEqual(DoWtest.day, "Monday")
+        XCTAssertEqual(DoWtest.startTime, 800)
+        XCTAssertEqual(DoWtest.endTime, 900)
+
+    }
+
+        
+    }
+    
+
+
 }

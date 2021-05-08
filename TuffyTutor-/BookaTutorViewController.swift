@@ -37,6 +37,29 @@ class BookaTutorViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var inputEndtime: UITextField!
     
     
+    @IBAction func Reset(_ sender: UIButton) {
+        
+        if (userTutor.value(forKey: "Tutor Name") as? String) != nil {
+            TutorNameLabel.text = "What tutor would you like?"
+        }
+        
+        if (userTutor.value(forKey: "Subject Name") as? String) != nil {
+            SubjectNameLabel.text = "What subject would you like?"
+        }
+        if (userTutor.value(forKey: "Day Name") as? String) != nil {
+            DayNameLabel.text = "What day would you like?"
+        }
+        if (userTutor.value(forKey: "Start Name") as? String) != nil {
+            StartTimeLabel.text = "What Start time would you like?"
+        }
+        if (userTutor.value(forKey: "End Name") as? String) != nil {
+            EndTimeLabel.text = "What End time would you like?"
+        }
+        
+      
+       
+    }
+    
     let userTutor = UserDefaults()
     let userSubj = UserDefaults()
     let userDay = UserDefaults()
