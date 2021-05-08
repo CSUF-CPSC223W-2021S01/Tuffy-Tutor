@@ -43,19 +43,16 @@ struct Book {
 
         let archiveURL = documentsDirectory.appendingPathComponent("TutorBookInfo").appendingPathExtension("plist")
 
-        guard let retrievedGame = try? Data(contentsOf: archiveURL),
-              let decodedGame = try? propertyListDecoder.decode(bookaTutor.self, from: retrievedGame)
+        guard let retrievedTutor = try? Data(contentsOf: archiveURL),
+              let decodedTutor = try? propertyListDecoder.decode(bookaTutor.self, from: retrievedTutor)
         else {
             self.book = bookaTutor()
             return
         }
 
-        self.book = decodedGame
+        self.book = decodedTutor
     }
 
-    mutating func reset() {
-        book = bookaTutor() // initialize all strings as empty
-    }
 
     func save() {
         // TODO: Save the history object into a file called game.plist
@@ -63,8 +60,8 @@ struct Book {
         let archiveURL = documentsDirectory.appendingPathComponent("TutorBookInfo").appendingPathExtension("plist")
 
         let propertyListEncoder = PropertyListEncoder()
-        if let encodedGame = try? propertyListEncoder.encode(book) {
-            try? encodedGame.write(to: archiveURL)
+        if let encodedTutor = try? propertyListEncoder.encode(book) {
+            try? encodedTutor.write(to: archiveURL)
         }
     }
 }

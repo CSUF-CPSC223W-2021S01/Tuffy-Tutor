@@ -36,6 +36,8 @@ class BookaTutorViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var inputEndtime: UITextField!
     
+    var bookTutor: bookaTutor?
+    var booking: Book?
     
     @IBAction func Reset(_ sender: UIButton) {
         
@@ -55,9 +57,14 @@ class BookaTutorViewController: UIViewController, UITextFieldDelegate {
         if (userTutor.value(forKey: "End Name") as? String) != nil {
             EndTimeLabel.text = "What End time would you like?"
         }
+
+    }
+    
+    
+    @IBAction func Saving(_ sender: Any) {
+        booking!.save()
         
-      
-       
+        
     }
     
     let userTutor = UserDefaults()
@@ -92,6 +99,9 @@ class BookaTutorViewController: UIViewController, UITextFieldDelegate {
         if let value5 = userTutor.value(forKey: "End Name") as? String {
             EndTimeLabel.text = "last saved End time was " + value5 + ". What End time would you like now?"
         }
+        
+        bookTutor = bookaTutor(Tutor: TutorNameLabel.text!, Subject: SubjectNameLabel.text!, day: DayNameLabel.text!, StartTime: StartTimeLabel.text!, EndTime: EndTimeLabel.text!)
+        booking = Book()
         
     }
     
