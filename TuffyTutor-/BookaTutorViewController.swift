@@ -38,6 +38,7 @@ class BookaTutorViewController: UIViewController, UITextFieldDelegate {
     
     
     @IBAction func Reset(_ sender: UIButton) {
+        
         if (userTutor.value(forKey: "Tutor Name") as? String) != nil {
             TutorNameLabel.text = "What tutor would you like?"
         }
@@ -54,7 +55,8 @@ class BookaTutorViewController: UIViewController, UITextFieldDelegate {
         if (userTutor.value(forKey: "End Name") as? String) != nil {
             EndTimeLabel.text = "What End time would you like?"
         }
-
+        
+      
        
     }
     
