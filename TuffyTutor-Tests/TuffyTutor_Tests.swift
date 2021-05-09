@@ -31,7 +31,6 @@ class TuffyTutor_Tests: XCTestCase {
     }
 
     
-    func testAvailability(){
         
 
  
@@ -62,9 +61,23 @@ class TuffyTutor_Tests: XCTestCase {
         XCTAssertEqual(DoWtest.endTime, 900)
 
     }
-
+    func testSavingData()
+    {
+        let BookaTutorTest = bookaTutor(Tutor: "Spongebob", Subject: "Math", day: "Monday", StartTime: "800", EndTime: "900")
+        
+        
+               
+        let propertyListDecoder = PropertyListDecoder()
+        guard FileManager.default.urls(for: .documentDirectory,
+                                       in: .userDomainMask).first != nil
+               else {
+                   XCTFail()
+                   return
+               }
+             
         
     }
+        
     
 
 
