@@ -51,13 +51,13 @@ class EduViewController: UIViewController {
         tutors2 = Tutor(Tutors: "Jane Doe")
         tutors3 = Tutor(Tutors: "Sponge Bob")
         
-        subjects1 = Subject(ClassSub: "Edu 101")
-        subjects2 = Subject(ClassSub: "Edu 102")
-        subjects3 = Subject(ClassSub: "Edu 103")
+        subjects1 = Subject(ClassSub: "EDU 101")
+        subjects2 = Subject(ClassSub: "EDU 102")
+        subjects3 = Subject(ClassSub: "EDU 103")
         
         sched1 = daysOfWeek(day: "M", startTime: 9, endTime: 10)
         sched2 = daysOfWeek(day: "T", startTime: 6, endTime: 7)
-        sched3 = daysOfWeek(day: "w", startTime: 5, endTime: 8)
+        sched3 = daysOfWeek(day: "W", startTime: 5, endTime: 8)
     
         updateUI()
         // Do any additional setup after loading the view.

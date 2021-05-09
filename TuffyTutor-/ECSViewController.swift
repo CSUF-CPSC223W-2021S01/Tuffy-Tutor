@@ -57,7 +57,7 @@ class ECSViewController: UIViewController {
         
         sched1 = daysOfWeek(day: "M", startTime: 9, endTime: 10)
         sched2 = daysOfWeek(day: "T", startTime: 6, endTime: 7)
-        sched3 = daysOfWeek(day: "w", startTime: 5, endTime: 8)
+        sched3 = daysOfWeek(day: "W", startTime: 5, endTime: 8)
     
         updateUI()
         // Do any additional setup after loading the view.

@@ -19,6 +19,6 @@ class daysOfWeek: CustomStringConvertible {
     }
 
     var description: String {
-        return "Day: \(day)\nStart Time: \(startTime)\nEnd Time: \(endTime)\n \n"
+        return "Day: \(day) \nStart Time: \(startTime) \nEnd Time: \(endTime) \n"
     }
 }
